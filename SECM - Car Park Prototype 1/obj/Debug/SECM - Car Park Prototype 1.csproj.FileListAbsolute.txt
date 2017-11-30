@@ -1,0 +1,12 @@
+C:\Users\andyl\source\repos\SECM - Car Park Prototype 1\SECM - Car Park Prototype 1\bin\Debug\SECM - Car Park Prototype 1.exe.config
+C:\Users\andyl\source\repos\SECM - Car Park Prototype 1\SECM - Car Park Prototype 1\bin\Debug\SECM - Car Park Prototype 1.exe
+C:\Users\andyl\source\repos\SECM - Car Park Prototype 1\SECM - Car Park Prototype 1\bin\Debug\SECM - Car Park Prototype 1.pdb
+C:\Users\andyl\source\repos\SECM - Car Park Prototype 1\SECM - Car Park Prototype 1\obj\Debug\SECM - Car Park Prototype 1.csprojResolveAssemblyReference.cache
+C:\Users\andyl\source\repos\SECM - Car Park Prototype 1\SECM - Car Park Prototype 1\obj\Debug\SECM___Car_Park_Prototype_1.Properties.Resources.resources
+C:\Users\andyl\source\repos\SECM - Car Park Prototype 1\SECM - Car Park Prototype 1\obj\Debug\SECM - Car Park Prototype 1.csproj.GenerateResource.Cache
+C:\Users\andyl\source\repos\SECM - Car Park Prototype 1\SECM - Car Park Prototype 1\obj\Debug\SECM - Car Park Prototype 1.csproj.CoreCompileInputs.cache
+C:\Users\andyl\source\repos\SECM - Car Park Prototype 1\SECM - Car Park Prototype 1\obj\Debug\SECM - Car Park Prototype 1.exe
+C:\Users\andyl\source\repos\SECM - Car Park Prototype 1\SECM - Car Park Prototype 1\obj\Debug\SECM - Car Park Prototype 1.pdb
+C:\Users\andyl\source\repos\SECM - Car Park Prototype 1\SECM - Car Park Prototype 1\obj\Debug\SECM___Car_Park_Prototype_1.setupCarPark.resources
+C:\Users\andyl\source\repos\SECM - Car Park Prototype 1\SECM - Car Park Prototype 1\obj\Debug\SECM___Car_Park_Prototype_1.carParkPanel.resources
+C:\Users\andyl\source\repos\SECM - Car Park Prototype 1\SECM - Car Park Prototype 1\obj\Debug\SECM___Car_Park_Prototype_1.newCustomer.resources
