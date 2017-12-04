@@ -12,13 +12,18 @@ namespace SECM___Car_Park_Prototype_1
 {
     public partial class carParkPanel : Form
     {
-        private int skipHour = 0;
+        private int skipHour = 0, pageIndex = 0;
         private CarPark carPark;
+        private List<CarParkDB> cpPanels;
+
         public carParkPanel(CarPark newCarPark)
         {
             InitializeComponent();
             timer1.Start();
             carPark = newCarPark;
+            initialiseSpaceMap();
+            prevLV.Enabled = false;
+            if (cpPanels.Count == 1) nextLV.Enabled = false;
             capacity.Text = carPark.getMaxCap().ToString();
             lvCapacity.Text = carPark.getLVCap().ToString();
             spaces.Text = carPark.getAvailableSpaces().ToString();
@@ -33,24 +38,16 @@ namespace SECM___Car_Park_Prototype_1
             if (isAdded != carPark.getNoOfActCusts())
             {
                 custNo.Text = carPark.getNoOfActCusts().ToString();
-                newCustAdded.Text = carPark.getNewlyAddedCust().getName();
             }
         }
 
-        private void panel1_Paint(object sender, PaintEventArgs e)
+        private void enterCP_Click(object sender, EventArgs e)
         {
-
+            enterPark enter = new enterPark(carPark, cpPanels, spaces);
+            enter.ShowDialog();
         }
 
         private void button10_Click(object sender, EventArgs e)
-        {
-
-        }
-        private void label2_Click(object sender, EventArgs e)
-        {
-
-        }
-        private void label1_Click(object sender, EventArgs e)
         {
 
         }
@@ -64,6 +61,73 @@ namespace SECM___Car_Park_Prototype_1
             timer1.Stop();
             skipHour++;
             timer1.Start();
+        }
+
+        private void nextLV_Click(object sender, EventArgs e)
+        {
+            if (pageIndex < cpPanels.Count - 1)
+            {
+                cpPanels[++pageIndex].BringToFront();
+                lvLabel.Text = (pageIndex != 0) ? "Level " + pageIndex.ToString() : "Ground Floor";
+                if (pageIndex == cpPanels.Count - 1)
+                {
+                    nextLV.Enabled = false;
+                    prevLV.Enabled = true;
+                }
+                else
+                    prevLV.Enabled = true;
+            }
+        }
+
+        private void prevLV_Click(object sender, EventArgs e)
+        {
+            if (pageIndex > 0)
+            {
+                cpPanels[--pageIndex].BringToFront();
+                lvLabel.Text = (pageIndex != 0) ? "Level " + pageIndex.ToString() : "Ground Floor";
+                if (pageIndex == 0)
+                {
+                    prevLV.Enabled = false;
+                    nextLV.Enabled = true;
+                }
+                else
+                    nextLV.Enabled = true;
+            }
+        }
+
+        private void carParkPanel_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void randCust_Click(object sender, EventArgs e)
+        {
+            int isAdded = carPark.getNoOfActCusts();
+            Customer newCust = new Customer("CP Agent", 666, new FPrintAcc(666, true, "Car Park Employee"));
+            carPark.addActiveCustomer(newCust);
+            if (isAdded != carPark.getNoOfActCusts())
+            {
+                custNo.Text = carPark.getNoOfActCusts().ToString();
+            }
+        }
+
+        private void initialiseSpaceMap()
+        {
+            int bayNo = 1;
+            cpPanels = new List<CarParkDB>();
+            for (int i = 0; i < carPark.getLevels(); i++)
+            {
+                CarParkDB carparkDB = new CarParkDB();
+                carparkDB.Name = "cp" + i.ToString();
+                for (int j = 0; j < carPark.getLVCap(); j++)
+                {
+                    if(i == 0) carparkDB.setInitialRows(j, "", bayNo, "Available");
+                    else carparkDB.setInitialRows(j, "", bayNo, "Level Inaccessible");
+                    bayNo++;
+                }
+                cpPanels.Add(carparkDB);
+                panel_main.Controls.Add(carparkDB);
+            }
         }
     }
 }

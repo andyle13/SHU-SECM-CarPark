@@ -45,14 +45,28 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Barrier.cs" />
     <Compile Include="CarPark.cs" />
+    <Compile Include="CarParkDB.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CarParkDB.Designer.cs">
+      <DependentUpon>CarParkDB.cs</DependentUpon>
+    </Compile>
     <Compile Include="carParkPanel.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="carParkPanel.Designer.cs">
       <DependentUpon>carParkPanel.cs</DependentUpon>
     </Compile>
+    <Compile Include="custListItems.cs" />
     <Compile Include="Customer.cs" />
+    <Compile Include="enterPark.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="enterPark.Designer.cs">
+      <DependentUpon>enterPark.cs</DependentUpon>
+    </Compile>
     <Compile Include="newCustomer.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -69,8 +83,15 @@
     <Compile Include="HashPair.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Voucher.cs" />
+    <EmbeddedResource Include="CarParkDB.resx">
+      <DependentUpon>CarParkDB.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="carParkPanel.resx">
       <DependentUpon>carParkPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="enterPark.resx">
+      <DependentUpon>enterPark.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="newCustomer.resx">
       <DependentUpon>newCustomer.cs</DependentUpon>

@@ -38,30 +38,29 @@
             this.lvCapacity = new System.Windows.Forms.Label();
             this.levelCapacity = new System.Windows.Forms.Label();
             this.newCust = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.enterCP = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
-            this.panel1 = new System.Windows.Forms.Panel();
+            this.prevLV = new System.Windows.Forms.Button();
+            this.nextLV = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.button13 = new System.Windows.Forms.Button();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.newCustAdded = new System.Windows.Forms.Label();
-            this.addedCust = new System.Windows.Forms.Label();
             this.custNo = new System.Windows.Forms.Label();
             this.actCust = new System.Windows.Forms.Label();
+            this.time = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.button12 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
+            this.randCust = new System.Windows.Forms.Button();
             this.hourSkipper = new System.Windows.Forms.Button();
             this.button9 = new System.Windows.Forms.Button();
             this.button10 = new System.Windows.Forms.Button();
             this.button11 = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
-            this.time = new System.Windows.Forms.Label();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.panel_main = new System.Windows.Forms.Panel();
+            this.lvLabel = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -158,15 +157,16 @@
             this.newCust.UseVisualStyleBackColor = true;
             this.newCust.Click += new System.EventHandler(this.newCust_Click);
             // 
-            // button1
+            // enterCP
             // 
-            this.button1.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(15, 146);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(118, 54);
-            this.button1.TabIndex = 18;
-            this.button1.Text = "Enter Car Park";
-            this.button1.UseVisualStyleBackColor = true;
+            this.enterCP.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.enterCP.Location = new System.Drawing.Point(15, 146);
+            this.enterCP.Name = "enterCP";
+            this.enterCP.Size = new System.Drawing.Size(118, 54);
+            this.enterCP.TabIndex = 18;
+            this.enterCP.Text = "Enter Car Park";
+            this.enterCP.UseVisualStyleBackColor = true;
+            this.enterCP.Click += new System.EventHandler(this.enterCP_Click);
             // 
             // button2
             // 
@@ -198,37 +198,31 @@
             this.button4.Text = "Exit Car Park";
             this.button4.UseVisualStyleBackColor = true;
             // 
-            // button5
+            // prevLV
             // 
-            this.button5.Location = new System.Drawing.Point(182, 279);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(118, 23);
-            this.button5.TabIndex = 22;
-            this.button5.Text = "Previous Level";
-            this.button5.UseVisualStyleBackColor = true;
+            this.prevLV.Location = new System.Drawing.Point(169, 283);
+            this.prevLV.Name = "prevLV";
+            this.prevLV.Size = new System.Drawing.Size(118, 23);
+            this.prevLV.TabIndex = 22;
+            this.prevLV.Text = "Previous Level";
+            this.prevLV.UseVisualStyleBackColor = true;
+            this.prevLV.Click += new System.EventHandler(this.prevLV_Click);
             // 
-            // button6
+            // nextLV
             // 
-            this.button6.Location = new System.Drawing.Point(463, 279);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(118, 23);
-            this.button6.TabIndex = 23;
-            this.button6.Text = "Next Level";
-            this.button6.UseVisualStyleBackColor = true;
-            // 
-            // panel1
-            // 
-            this.panel1.Location = new System.Drawing.Point(182, 68);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(399, 205);
-            this.panel1.TabIndex = 24;
-            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
+            this.nextLV.Location = new System.Drawing.Point(474, 283);
+            this.nextLV.Name = "nextLV";
+            this.nextLV.Size = new System.Drawing.Size(118, 23);
+            this.nextLV.TabIndex = 23;
+            this.nextLV.Text = "Next Level";
+            this.nextLV.UseVisualStyleBackColor = true;
+            this.nextLV.Click += new System.EventHandler(this.nextLV_Click);
             // 
             // groupBox1
             // 
             this.groupBox1.Controls.Add(this.button13);
             this.groupBox1.Controls.Add(this.newCust);
-            this.groupBox1.Controls.Add(this.button1);
+            this.groupBox1.Controls.Add(this.enterCP);
             this.groupBox1.Controls.Add(this.button2);
             this.groupBox1.Controls.Add(this.button3);
             this.groupBox1.Controls.Add(this.button4);
@@ -252,45 +246,25 @@
             // 
             // groupBox2
             // 
-            this.groupBox2.Controls.Add(this.newCustAdded);
-            this.groupBox2.Controls.Add(this.addedCust);
             this.groupBox2.Controls.Add(this.custNo);
             this.groupBox2.Controls.Add(this.actCust);
             this.groupBox2.Controls.Add(this.maxCapacity);
             this.groupBox2.Controls.Add(this.capacity);
             this.groupBox2.Controls.Add(this.spacesAvailable);
             this.groupBox2.Controls.Add(this.spaces);
+            this.groupBox2.Controls.Add(this.time);
             this.groupBox2.Controls.Add(this.levels);
+            this.groupBox2.Controls.Add(this.label1);
             this.groupBox2.Controls.Add(this.lvCapacity);
             this.groupBox2.Controls.Add(this.lvs);
             this.groupBox2.Controls.Add(this.levelCapacity);
             this.groupBox2.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox2.Location = new System.Drawing.Point(182, 312);
+            this.groupBox2.Location = new System.Drawing.Point(169, 312);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(399, 101);
+            this.groupBox2.Size = new System.Drawing.Size(423, 101);
             this.groupBox2.TabIndex = 26;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Car Park Statistics";
-            // 
-            // newCustAdded
-            // 
-            this.newCustAdded.AutoSize = true;
-            this.newCustAdded.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.newCustAdded.Location = new System.Drawing.Point(249, 79);
-            this.newCustAdded.Name = "newCustAdded";
-            this.newCustAdded.Size = new System.Drawing.Size(0, 15);
-            this.newCustAdded.TabIndex = 20;
-            this.newCustAdded.Click += new System.EventHandler(this.label1_Click);
-            // 
-            // addedCust
-            // 
-            this.addedCust.AutoSize = true;
-            this.addedCust.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.addedCust.Location = new System.Drawing.Point(247, 60);
-            this.addedCust.Name = "addedCust";
-            this.addedCust.Size = new System.Drawing.Size(134, 15);
-            this.addedCust.TabIndex = 19;
-            this.addedCust.Text = "Newly added customer:";
             // 
             // custNo
             // 
@@ -312,10 +286,30 @@
             this.actCust.TabIndex = 17;
             this.actCust.Text = "Active Customers:";
             // 
+            // time
+            // 
+            this.time.AutoSize = true;
+            this.time.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.time.Location = new System.Drawing.Point(249, 79);
+            this.time.Name = "time";
+            this.time.Size = new System.Drawing.Size(63, 15);
+            this.time.TabIndex = 15;
+            this.time.Text = "HH:MM:SS";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(247, 60);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(80, 15);
+            this.label1.TabIndex = 15;
+            this.label1.Text = "Current Time:";
+            // 
             // groupBox3
             // 
             this.groupBox3.Controls.Add(this.button12);
-            this.groupBox3.Controls.Add(this.button7);
+            this.groupBox3.Controls.Add(this.randCust);
             this.groupBox3.Controls.Add(this.hourSkipper);
             this.groupBox3.Controls.Add(this.button9);
             this.groupBox3.Controls.Add(this.button10);
@@ -338,15 +332,16 @@
             this.button12.Text = "Visitor History";
             this.button12.UseVisualStyleBackColor = true;
             // 
-            // button7
+            // randCust
             // 
-            this.button7.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button7.Location = new System.Drawing.Point(15, 26);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(118, 54);
-            this.button7.TabIndex = 17;
-            this.button7.Text = "Random Customer";
-            this.button7.UseVisualStyleBackColor = true;
+            this.randCust.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.randCust.Location = new System.Drawing.Point(15, 26);
+            this.randCust.Name = "randCust";
+            this.randCust.Size = new System.Drawing.Size(118, 54);
+            this.randCust.TabIndex = 17;
+            this.randCust.Text = "Add CP Agent";
+            this.randCust.UseVisualStyleBackColor = true;
+            this.randCust.Click += new System.EventHandler(this.randCust_Click);
             // 
             // hourSkipper
             // 
@@ -390,51 +385,48 @@
             this.button11.Text = "Emergency Alert";
             this.button11.UseVisualStyleBackColor = true;
             // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(179, 13);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(80, 15);
-            this.label1.TabIndex = 15;
-            this.label1.Text = "Current Time:";
-            // 
-            // time
-            // 
-            this.time.AutoSize = true;
-            this.time.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.time.Location = new System.Drawing.Point(261, 13);
-            this.time.Name = "time";
-            this.time.Size = new System.Drawing.Size(63, 15);
-            this.time.TabIndex = 15;
-            this.time.Text = "HH:MM:SS";
-            // 
             // timer1
             // 
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            // 
+            // panel_main
+            // 
+            this.panel_main.Location = new System.Drawing.Point(169, 24);
+            this.panel_main.Name = "panel_main";
+            this.panel_main.Size = new System.Drawing.Size(423, 253);
+            this.panel_main.TabIndex = 28;
+            // 
+            // lvLabel
+            // 
+            this.lvLabel.Font = new System.Drawing.Font("Calibri", 12F);
+            this.lvLabel.Location = new System.Drawing.Point(322, 283);
+            this.lvLabel.Name = "lvLabel";
+            this.lvLabel.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.lvLabel.Size = new System.Drawing.Size(120, 23);
+            this.lvLabel.TabIndex = 19;
+            this.lvLabel.Text = "Ground Floor";
+            this.lvLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // carParkPanel
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(762, 427);
+            this.Controls.Add(this.lvLabel);
+            this.Controls.Add(this.panel_main);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
-            this.Controls.Add(this.panel1);
-            this.Controls.Add(this.button6);
-            this.Controls.Add(this.button5);
-            this.Controls.Add(this.time);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.nextLV);
+            this.Controls.Add(this.prevLV);
             this.Name = "carParkPanel";
             this.Text = "carParkPanel";
+            this.Load += new System.EventHandler(this.carParkPanel_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
             this.groupBox3.ResumeLayout(false);
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -449,17 +441,16 @@
         private System.Windows.Forms.Label lvCapacity;
         private System.Windows.Forms.Label levelCapacity;
         private System.Windows.Forms.Button newCust;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button enterCP;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Button prevLV;
+        private System.Windows.Forms.Button nextLV;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.GroupBox groupBox3;
-        private System.Windows.Forms.Button button7;
+        private System.Windows.Forms.Button randCust;
         private System.Windows.Forms.Button hourSkipper;
         private System.Windows.Forms.Button button9;
         private System.Windows.Forms.Button button10;
@@ -468,10 +459,10 @@
         private System.Windows.Forms.Button button12;
         private System.Windows.Forms.Label custNo;
         private System.Windows.Forms.Label actCust;
-        private System.Windows.Forms.Label newCustAdded;
-        private System.Windows.Forms.Label addedCust;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label time;
         private System.Windows.Forms.Timer timer1;
+        private System.Windows.Forms.Panel panel_main;
+        private System.Windows.Forms.Label lvLabel;
     }
 }

@@ -11,6 +11,7 @@ namespace SECM___Car_Park_Prototype_1
         private string name;
         private double balance;
         private FPrintAcc fingerprint;
+        private Voucher voucher;
 
         public Customer(string name, double balance, FPrintAcc fingerprint)
         {

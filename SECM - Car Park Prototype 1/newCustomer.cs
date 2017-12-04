@@ -124,7 +124,7 @@ namespace SECM___Car_Park_Prototype_1
         private void submit_Click(object sender, EventArgs e)
         {
             if(noID.Checked == true)
-                cID = "Customer No. " + new Random().Next(1, 9999).ToString();
+                cID = new Random().Next(1, 9999).ToString();
 
             Customer newCust = (yesID.Checked == true) ?
                 new Customer(cID, cBalance * 0.8, new FPrintAcc(cBalance * 0.2, cPAYP, cIncentive)) : 
@@ -139,7 +139,7 @@ namespace SECM___Car_Park_Prototype_1
                     + "\nYour Payment mode: " + newCust.getAccount().getPayStyle()
                     + "\nYour Discount mode: " + newCust.getAccount().getIncentiveType());
             else
-                MessageBox.Show("Welcome " + newCust.getName() + "\nYour current balance is: " + newCust.getBalance());
+                MessageBox.Show("Welcome Customer No. " + newCust.getName() + "\nYour current balance is: " + newCust.getBalance());
 
             this.Close();
         }
