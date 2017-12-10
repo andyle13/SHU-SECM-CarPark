@@ -88,7 +88,7 @@ namespace SECM___Car_Park_Prototype_1
 
         private void enterCP_Click(object sender, EventArgs e)
         {
-            _cpPanels[getLevel()].updateCPstatus(index % _carPark.getLVCap(), selectedCustomer.getName(), (index + 1), "Entered");
+            _cpPanels[getLevel()].updateCPstatus(index % _carPark.getLVCap(), selectedCustomer.getName(), (index + 1), "Reserved");
             _carPark.setNoOfVisitors(1);
             custList.Enabled = true;
             lowered.Checked = true;
@@ -98,6 +98,9 @@ namespace SECM___Car_Park_Prototype_1
             _carPark.setNoOfCustomers(-1);
             _carPark.setOccupiedSpaces(1);
             _spaces.Text = _carPark.getAvailableSpaces().ToString();
+
+            if (custList.Items.Count == 0)
+                this.Close();
         }
 
         private int allocateBay(string key)

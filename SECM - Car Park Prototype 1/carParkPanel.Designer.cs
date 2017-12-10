@@ -39,9 +39,9 @@
             this.levelCapacity = new System.Windows.Forms.Label();
             this.newCust = new System.Windows.Forms.Button();
             this.enterCP = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
+            this.parklock = new System.Windows.Forms.Button();
+            this.pay = new System.Windows.Forms.Button();
+            this.exitCP = new System.Windows.Forms.Button();
             this.prevLV = new System.Windows.Forms.Button();
             this.nextLV = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
@@ -159,6 +159,7 @@
             // 
             // enterCP
             // 
+            this.enterCP.Enabled = false;
             this.enterCP.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.enterCP.Location = new System.Drawing.Point(15, 146);
             this.enterCP.Name = "enterCP";
@@ -168,38 +169,42 @@
             this.enterCP.UseVisualStyleBackColor = true;
             this.enterCP.Click += new System.EventHandler(this.enterCP_Click);
             // 
-            // button2
+            // parklock
             // 
-            this.button2.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(15, 206);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(118, 54);
-            this.button2.TabIndex = 19;
-            this.button2.Text = "Park and Lock";
-            this.button2.UseVisualStyleBackColor = true;
+            this.parklock.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.parklock.Location = new System.Drawing.Point(15, 206);
+            this.parklock.Name = "parklock";
+            this.parklock.Size = new System.Drawing.Size(118, 54);
+            this.parklock.TabIndex = 19;
+            this.parklock.Text = "Park and Lock";
+            this.parklock.UseVisualStyleBackColor = true;
+            this.parklock.Click += new System.EventHandler(this.parklock_Click);
             // 
-            // button3
+            // pay
             // 
-            this.button3.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(15, 266);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(118, 54);
-            this.button3.TabIndex = 20;
-            this.button3.Text = "Payment Machine";
-            this.button3.UseVisualStyleBackColor = true;
+            this.pay.Enabled = false;
+            this.pay.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.pay.Location = new System.Drawing.Point(15, 266);
+            this.pay.Name = "pay";
+            this.pay.Size = new System.Drawing.Size(118, 54);
+            this.pay.TabIndex = 20;
+            this.pay.Text = "Payment Machine";
+            this.pay.UseVisualStyleBackColor = true;
             // 
-            // button4
+            // exitCP
             // 
-            this.button4.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.Location = new System.Drawing.Point(15, 326);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(118, 54);
-            this.button4.TabIndex = 21;
-            this.button4.Text = "Exit Car Park";
-            this.button4.UseVisualStyleBackColor = true;
+            this.exitCP.Enabled = false;
+            this.exitCP.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.exitCP.Location = new System.Drawing.Point(15, 326);
+            this.exitCP.Name = "exitCP";
+            this.exitCP.Size = new System.Drawing.Size(118, 54);
+            this.exitCP.TabIndex = 21;
+            this.exitCP.Text = "Exit Car Park";
+            this.exitCP.UseVisualStyleBackColor = true;
             // 
             // prevLV
             // 
+            this.prevLV.Enabled = false;
             this.prevLV.Location = new System.Drawing.Point(169, 283);
             this.prevLV.Name = "prevLV";
             this.prevLV.Size = new System.Drawing.Size(118, 23);
@@ -210,6 +215,7 @@
             // 
             // nextLV
             // 
+            this.nextLV.Enabled = false;
             this.nextLV.Location = new System.Drawing.Point(474, 283);
             this.nextLV.Name = "nextLV";
             this.nextLV.Size = new System.Drawing.Size(118, 23);
@@ -223,9 +229,9 @@
             this.groupBox1.Controls.Add(this.button13);
             this.groupBox1.Controls.Add(this.newCust);
             this.groupBox1.Controls.Add(this.enterCP);
-            this.groupBox1.Controls.Add(this.button2);
-            this.groupBox1.Controls.Add(this.button3);
-            this.groupBox1.Controls.Add(this.button4);
+            this.groupBox1.Controls.Add(this.parklock);
+            this.groupBox1.Controls.Add(this.pay);
+            this.groupBox1.Controls.Add(this.exitCP);
             this.groupBox1.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.Location = new System.Drawing.Point(12, 13);
             this.groupBox1.Name = "groupBox1";
@@ -236,6 +242,7 @@
             // 
             // button13
             // 
+            this.button13.Enabled = false;
             this.button13.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button13.Location = new System.Drawing.Point(15, 86);
             this.button13.Name = "button13";
@@ -324,12 +331,13 @@
             // 
             // button12
             // 
+            this.button12.Enabled = false;
             this.button12.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button12.Location = new System.Drawing.Point(15, 146);
             this.button12.Name = "button12";
             this.button12.Size = new System.Drawing.Size(118, 54);
             this.button12.TabIndex = 22;
-            this.button12.Text = "Visitor History";
+            this.button12.Text = "Update Customer";
             this.button12.UseVisualStyleBackColor = true;
             // 
             // randCust
@@ -356,6 +364,7 @@
             // 
             // button9
             // 
+            this.button9.Enabled = false;
             this.button9.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button9.Location = new System.Drawing.Point(15, 206);
             this.button9.Name = "button9";
@@ -366,6 +375,7 @@
             // 
             // button10
             // 
+            this.button10.Enabled = false;
             this.button10.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button10.Location = new System.Drawing.Point(15, 266);
             this.button10.Name = "button10";
@@ -442,9 +452,9 @@
         private System.Windows.Forms.Label levelCapacity;
         private System.Windows.Forms.Button newCust;
         private System.Windows.Forms.Button enterCP;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button parklock;
+        private System.Windows.Forms.Button pay;
+        private System.Windows.Forms.Button exitCP;
         private System.Windows.Forms.Button prevLV;
         private System.Windows.Forms.Button nextLV;
         private System.Windows.Forms.GroupBox groupBox1;

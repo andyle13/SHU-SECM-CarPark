@@ -12,3 +12,4 @@ C:\Users\andyl\source\repos\SECM - Car Park Prototype 1\SECM - Car Park Prototyp
 C:\Users\andyl\source\repos\SECM - Car Park Prototype 1\SECM - Car Park Prototype 1\obj\Debug\SECM___Car_Park_Prototype_1.newCustomer.resources
 C:\Users\andyl\source\repos\SECM - Car Park Prototype 1\SECM - Car Park Prototype 1\obj\Debug\SECM___Car_Park_Prototype_1.CarParkDB.resources
 C:\Users\andyl\source\repos\SECM - Car Park Prototype 1\SECM - Car Park Prototype 1\obj\Debug\SECM___Car_Park_Prototype_1.enterPark.resources
+C:\Users\andyl\source\repos\SECM - Car Park Prototype 1\SECM - Car Park Prototype 1\obj\Debug\SECM___Car_Park_Prototype_1.parkLock.resources

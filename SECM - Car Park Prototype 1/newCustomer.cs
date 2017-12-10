@@ -127,7 +127,7 @@ namespace SECM___Car_Park_Prototype_1
                 cID = new Random().Next(1, 9999).ToString();
 
             Customer newCust = (yesID.Checked == true) ?
-                new Customer(cID, cBalance * 0.8, new FPrintAcc(cBalance * 0.2, cPAYP, cIncentive)) : 
+                new Customer(cID, cBalance * 0.95, new FPrintAcc(cBalance * 0.05, cPAYP, cIncentive)) : 
                 new Customer(cID, cBalance, null);
 
             _carPark.addActiveCustomer(newCust);

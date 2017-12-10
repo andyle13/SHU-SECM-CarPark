@@ -22,8 +22,7 @@ namespace SECM___Car_Park_Prototype_1
             timer1.Start();
             carPark = newCarPark;
             initialiseSpaceMap();
-            prevLV.Enabled = false;
-            if (cpPanels.Count == 1) nextLV.Enabled = false;
+            if (cpPanels.Count != 1) nextLV.Enabled = true;
             capacity.Text = carPark.getMaxCap().ToString();
             lvCapacity.Text = carPark.getLVCap().ToString();
             spaces.Text = carPark.getAvailableSpaces().ToString();
@@ -36,15 +35,15 @@ namespace SECM___Car_Park_Prototype_1
             newCustomer newCust = new newCustomer(carPark);
             newCust.ShowDialog();
             if (isAdded != carPark.getNoOfActCusts())
-            {
                 custNo.Text = carPark.getNoOfActCusts().ToString();
-            }
+            checkActCust();
         }
 
         private void enterCP_Click(object sender, EventArgs e)
         {
             enterPark enter = new enterPark(carPark, cpPanels, spaces);
             enter.ShowDialog();
+            checkActCust();
         }
 
         private void button10_Click(object sender, EventArgs e)
@@ -106,9 +105,8 @@ namespace SECM___Car_Park_Prototype_1
             Customer newCust = new Customer("CP Agent", 666, new FPrintAcc(666, true, "Car Park Employee"));
             carPark.addActiveCustomer(newCust);
             if (isAdded != carPark.getNoOfActCusts())
-            {
                 custNo.Text = carPark.getNoOfActCusts().ToString();
-            }
+            checkActCust();
         }
 
         private void initialiseSpaceMap()
@@ -128,6 +126,17 @@ namespace SECM___Car_Park_Prototype_1
                 cpPanels.Add(carparkDB);
                 panel_main.Controls.Add(carparkDB);
             }
+        }
+
+        private void parklock_Click(object sender, EventArgs e)
+        {
+            parkLock pl = new parkLock(carPark, cpPanels);
+            pl.ShowDialog();
+        }
+
+        private void checkActCust()
+        {
+            enterCP.Enabled = (carPark.getActiveCustList().Count > 0) ? true : false;
         }
     }
 }

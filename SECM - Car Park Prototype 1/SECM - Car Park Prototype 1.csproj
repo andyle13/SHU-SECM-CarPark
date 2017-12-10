@@ -73,6 +73,12 @@
     <Compile Include="newCustomer.Designer.cs">
       <DependentUpon>newCustomer.cs</DependentUpon>
     </Compile>
+    <Compile Include="parkLock.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="parkLock.Designer.cs">
+      <DependentUpon>parkLock.cs</DependentUpon>
+    </Compile>
     <Compile Include="setupCarPark.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -95,6 +101,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="newCustomer.resx">
       <DependentUpon>newCustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="parkLock.resx">
+      <DependentUpon>parkLock.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="setupCarPark.resx">
       <DependentUpon>setupCarPark.cs</DependentUpon>
