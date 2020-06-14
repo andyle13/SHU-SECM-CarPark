@@ -1,12 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-
-
-namespace SECM___Car_Park_Prototype_1
+﻿namespace SECM___Car_Park_Prototype_1
 {
     public class FPrintAcc
     {
@@ -21,24 +13,39 @@ namespace SECM___Car_Park_Prototype_1
             this.incentive = incentive;
         }
 
-        public double getBalance()
+        public double GetBalance()
         {
             return balance;
         }
 
-        public string getPayStyle()
+        public string GetPayStyle()
         {
             return (isPAYP) ? "PAYP" : "Direct Debit";
         }
 
-        public string getIncentiveType()
+        public string GetIncentiveType()
         {
             return incentive;
         }
 
-        public double getAccBalance()
+        public void SetBalance(double balance)
         {
-            return balance;
+            this.balance += balance;
+        }
+
+        public void NullBalance()
+        {
+            this.balance = 0;
+        }
+
+        public void SetPayStyle(bool isPAYP)
+        {
+            this.isPAYP = isPAYP;
+        }
+
+        public void SetIncentive(string incentive)
+        {
+            this.incentive = incentive;
         }
     }
 }

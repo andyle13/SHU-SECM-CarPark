@@ -1,6 +1,6 @@
 ﻿namespace SECM___Car_Park_Prototype_1
 {
-    partial class setupCarPark
+    partial class SetupCarPark
     {
         /// <summary>
         /// Required designer variable.
@@ -38,6 +38,8 @@
             this.spaces = new System.Windows.Forms.TextBox();
             this.instantiation = new System.Windows.Forms.Button();
             this.capacity = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.exits = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // instruction
@@ -88,7 +90,7 @@
             // 
             this.maxCapacity.AutoSize = true;
             this.maxCapacity.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.maxCapacity.Location = new System.Drawing.Point(18, 193);
+            this.maxCapacity.Location = new System.Drawing.Point(156, 186);
             this.maxCapacity.Name = "maxCapacity";
             this.maxCapacity.Size = new System.Drawing.Size(137, 19);
             this.maxCapacity.TabIndex = 4;
@@ -134,29 +136,54 @@
             // 
             this.capacity.AutoSize = true;
             this.capacity.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.capacity.Location = new System.Drawing.Point(20, 212);
+            this.capacity.Location = new System.Drawing.Point(156, 208);
             this.capacity.Name = "capacity";
             this.capacity.Size = new System.Drawing.Size(17, 19);
             this.capacity.TabIndex = 8;
             this.capacity.Text = "0";
             // 
-            // setupCarPark
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(18, 186);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(116, 19);
+            this.label1.TabIndex = 2;
+            this.label1.Text = "Number of Exits:";
+            // 
+            // exits
+            // 
+            this.exits.ForeColor = System.Drawing.SystemColors.InactiveCaption;
+            this.exits.Location = new System.Drawing.Point(22, 208);
+            this.exits.Name = "exits";
+            this.exits.Size = new System.Drawing.Size(116, 23);
+            this.exits.TabIndex = 5;
+            this.exits.Text = "0";
+            this.exits.TextChanged += new System.EventHandler(this.exits_TextChanged);
+            this.exits.Enter += new System.EventHandler(this.exits_Enter);
+            this.exits.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.exits_KeyPress);
+            this.exits.Leave += new System.EventHandler(this.exits_Leave);
+            // 
+            // SetupCarPark
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(353, 313);
+            this.ClientSize = new System.Drawing.Size(357, 313);
             this.Controls.Add(this.capacity);
             this.Controls.Add(this.instantiation);
             this.Controls.Add(this.spaces);
+            this.Controls.Add(this.exits);
             this.Controls.Add(this.levels);
             this.Controls.Add(this.maxCapacity);
             this.Controls.Add(this.floorSpaces);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.nooflevels);
             this.Controls.Add(this.header);
             this.Controls.Add(this.instruction);
             this.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Name = "setupCarPark";
-            this.Text = "Form1";
+            this.Name = "SetupCarPark";
+            this.Text = "Setup";
             this.Load += new System.EventHandler(this.setupCarPark_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -175,6 +202,8 @@
         private System.Windows.Forms.TextBox spaces;
         private System.Windows.Forms.Button instantiation;
         private System.Windows.Forms.Label capacity;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.TextBox exits;
     }
 }
 

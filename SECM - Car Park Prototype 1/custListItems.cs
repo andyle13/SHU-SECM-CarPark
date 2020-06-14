@@ -1,12 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace SECM___Car_Park_Prototype_1
+﻿namespace SECM___Car_Park_Prototype_1
 {
-    class custListItems
+    class CustListItems
     {
         public int Level { get; set; }
         public int BayIndex { get; set; }

@@ -1,7 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace SECM___Car_Park_Prototype_1
@@ -16,7 +13,7 @@ namespace SECM___Car_Park_Prototype_1
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new setupCarPark());
+            Application.Run(new SetupCarPark());
         }
     }
 }

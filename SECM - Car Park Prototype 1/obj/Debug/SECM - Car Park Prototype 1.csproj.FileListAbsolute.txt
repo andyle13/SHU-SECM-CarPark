@@ -8,8 +8,303 @@ C:\Users\andyl\source\repos\SECM - Car Park Prototype 1\SECM - Car Park Prototyp
 C:\Users\andyl\source\repos\SECM - Car Park Prototype 1\SECM - Car Park Prototype 1\obj\Debug\SECM - Car Park Prototype 1.exe
 C:\Users\andyl\source\repos\SECM - Car Park Prototype 1\SECM - Car Park Prototype 1\obj\Debug\SECM - Car Park Prototype 1.pdb
 C:\Users\andyl\source\repos\SECM - Car Park Prototype 1\SECM - Car Park Prototype 1\obj\Debug\SECM___Car_Park_Prototype_1.setupCarPark.resources
-C:\Users\andyl\source\repos\SECM - Car Park Prototype 1\SECM - Car Park Prototype 1\obj\Debug\SECM___Car_Park_Prototype_1.carParkPanel.resources
 C:\Users\andyl\source\repos\SECM - Car Park Prototype 1\SECM - Car Park Prototype 1\obj\Debug\SECM___Car_Park_Prototype_1.newCustomer.resources
 C:\Users\andyl\source\repos\SECM - Car Park Prototype 1\SECM - Car Park Prototype 1\obj\Debug\SECM___Car_Park_Prototype_1.CarParkDB.resources
 C:\Users\andyl\source\repos\SECM - Car Park Prototype 1\SECM - Car Park Prototype 1\obj\Debug\SECM___Car_Park_Prototype_1.enterPark.resources
-C:\Users\andyl\source\repos\SECM - Car Park Prototype 1\SECM - Car Park Prototype 1\obj\Debug\SECM___Car_Park_Prototype_1.parkLock.resources
+C:\Users\andyl\source\repos\SECM - Car Park Prototype 1\SECM - Car Park Prototype 1\obj\Debug\SECM___Car_Park_Prototype_1.paymentMachine.resources
+C:\Users\andyl\source\repos\SECM - Car Park Prototype 1\SECM - Car Park Prototype 1\obj\Debug\SECM - Car Park Prototype 1.csproj.ResolveComReference.cache
+C:\Users\andyl\source\repos\SECM - Car Park Prototype 1\SECM - Car Park Prototype 1\obj\Debug\SECM___Car_Park_Prototype_1.exitBarrierPanel.resources
+C:\Users\andyl\source\repos\SECM - Car Park Prototype 1\SECM - Car Park Prototype 1\obj\Debug\SECM___Car_Park_Prototype_1.exitPark.resources
+C:\Users\andyl\source\repos\SECM - Car Park Prototype 1\SECM - Car Park Prototype 1\obj\Debug\SECM___Car_Park_Prototype_1.CarParkMenu.resources
+C:\Users\andyl\source\repos\SECM - Car Park Prototype 1\SECM - Car Park Prototype 1\obj\Debug\SECM___Car_Park_Prototype_1.ParkingBay.resources
+C:\Users\andyl\source\repos\SECM - Car Park Prototype 1\SECM - Car Park Prototype 1\bin\Debug\Firebase.dll
+C:\Users\andyl\source\repos\SECM - Car Park Prototype 1\SECM - Car Park Prototype 1\bin\Debug\Microsoft.Win32.Primitives.dll
+C:\Users\andyl\source\repos\SECM - Car Park Prototype 1\SECM - Car Park Prototype 1\bin\Debug\Newtonsoft.Json.dll
+C:\Users\andyl\source\repos\SECM - Car Park Prototype 1\SECM - Car Park Prototype 1\bin\Debug\System.AppContext.dll
+C:\Users\andyl\source\repos\SECM - Car Park Prototype 1\SECM - Car Park Prototype 1\bin\Debug\System.Console.dll
+C:\Users\andyl\source\repos\SECM - Car Park Prototype 1\SECM - Car Park Prototype 1\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\andyl\source\repos\SECM - Car Park Prototype 1\SECM - Car Park Prototype 1\bin\Debug\System.Globalization.Calendars.dll
+C:\Users\andyl\source\repos\SECM - Car Park Prototype 1\SECM - Car Park Prototype 1\bin\Debug\System.IO.Compression.dll
+C:\Users\andyl\source\repos\SECM - Car Park Prototype 1\SECM - Car Park Prototype 1\bin\Debug\System.IO.Compression.ZipFile.dll
+C:\Users\andyl\source\repos\SECM - Car Park Prototype 1\SECM - Car Park Prototype 1\bin\Debug\System.IO.FileSystem.dll
+C:\Users\andyl\source\repos\SECM - Car Park Prototype 1\SECM - Car Park Prototype 1\bin\Debug\System.IO.FileSystem.Primitives.dll
+C:\Users\andyl\source\repos\SECM - Car Park Prototype 1\SECM - Car Park Prototype 1\bin\Debug\System.Net.Http.dll
+C:\Users\andyl\source\repos\SECM - Car Park Prototype 1\SECM - Car Park Prototype 1\bin\Debug\System.Net.Sockets.dll
+C:\Users\andyl\source\repos\SECM - Car Park Prototype 1\SECM - Car Park Prototype 1\bin\Debug\System.Reactive.Core.dll
+C:\Users\andyl\source\repos\SECM - Car Park Prototype 1\SECM - Car Park Prototype 1\bin\Debug\System.Reactive.Interfaces.dll
+C:\Users\andyl\source\repos\SECM - Car Park Prototype 1\SECM - Car Park Prototype 1\bin\Debug\System.Reactive.Linq.dll
+C:\Users\andyl\source\repos\SECM - Car Park Prototype 1\SECM - Car Park Prototype 1\bin\Debug\System.Reactive.PlatformServices.dll
+C:\Users\andyl\source\repos\SECM - Car Park Prototype 1\SECM - Car Park Prototype 1\bin\Debug\System.Reactive.Windows.Threading.dll
+C:\Users\andyl\source\repos\SECM - Car Park Prototype 1\SECM - Car Park Prototype 1\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\andyl\source\repos\SECM - Car Park Prototype 1\SECM - Car Park Prototype 1\bin\Debug\System.Security.Cryptography.Algorithms.dll
+C:\Users\andyl\source\repos\SECM - Car Park Prototype 1\SECM - Car Park Prototype 1\bin\Debug\System.Security.Cryptography.Encoding.dll
+C:\Users\andyl\source\repos\SECM - Car Park Prototype 1\SECM - Car Park Prototype 1\bin\Debug\System.Security.Cryptography.Primitives.dll
+C:\Users\andyl\source\repos\SECM - Car Park Prototype 1\SECM - Car Park Prototype 1\bin\Debug\System.Security.Cryptography.X509Certificates.dll
+C:\Users\andyl\source\repos\SECM - Car Park Prototype 1\SECM - Car Park Prototype 1\bin\Debug\System.Xml.ReaderWriter.dll
+C:\Users\andyl\source\repos\SECM - Car Park Prototype 1\SECM - Car Park Prototype 1\bin\Debug\Newtonsoft.Json.xml
+C:\Users\andyl\source\repos\SECM - Car Park Prototype 1\SECM - Car Park Prototype 1\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\andyl\source\repos\SECM - Car Park Prototype 1\SECM - Car Park Prototype 1\bin\Debug\System.Reactive.Core.xml
+C:\Users\andyl\source\repos\SECM - Car Park Prototype 1\SECM - Car Park Prototype 1\bin\Debug\System.Reactive.Interfaces.xml
+C:\Users\andyl\source\repos\SECM - Car Park Prototype 1\SECM - Car Park Prototype 1\bin\Debug\System.Reactive.Linq.xml
+C:\Users\andyl\source\repos\SECM - Car Park Prototype 1\SECM - Car Park Prototype 1\bin\Debug\System.Reactive.PlatformServices.xml
+C:\Users\andyl\source\repos\SECM - Car Park Prototype 1\SECM - Car Park Prototype 1\bin\Debug\System.Reactive.Windows.Threading.xml
+C:\Users\andyl\source\repos\SECM - Car Park Prototype 1\SECM - Car Park Prototype 1\obj\Debug\SECM___Car_Park_Prototype_1.CryptoPayment.resources
+C:\Users\Student\Desktop\Combined\SECM - Car Park Prototype 1 (1)\SECM - Car Park Prototype 1\bin\Debug\SECM - Car Park Prototype 1.exe.config
+C:\Users\Student\Desktop\Combined\SECM - Car Park Prototype 1 (1)\SECM - Car Park Prototype 1\bin\Debug\SECM - Car Park Prototype 1.exe
+C:\Users\Student\Desktop\Combined\SECM - Car Park Prototype 1 (1)\SECM - Car Park Prototype 1\bin\Debug\SECM - Car Park Prototype 1.pdb
+C:\Users\Student\Desktop\Combined\SECM - Car Park Prototype 1 (1)\SECM - Car Park Prototype 1\bin\Debug\Firebase.dll
+C:\Users\Student\Desktop\Combined\SECM - Car Park Prototype 1 (1)\SECM - Car Park Prototype 1\bin\Debug\Microsoft.Win32.Primitives.dll
+C:\Users\Student\Desktop\Combined\SECM - Car Park Prototype 1 (1)\SECM - Car Park Prototype 1\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Student\Desktop\Combined\SECM - Car Park Prototype 1 (1)\SECM - Car Park Prototype 1\bin\Debug\System.AppContext.dll
+C:\Users\Student\Desktop\Combined\SECM - Car Park Prototype 1 (1)\SECM - Car Park Prototype 1\bin\Debug\System.Console.dll
+C:\Users\Student\Desktop\Combined\SECM - Car Park Prototype 1 (1)\SECM - Car Park Prototype 1\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Student\Desktop\Combined\SECM - Car Park Prototype 1 (1)\SECM - Car Park Prototype 1\bin\Debug\System.Globalization.Calendars.dll
+C:\Users\Student\Desktop\Combined\SECM - Car Park Prototype 1 (1)\SECM - Car Park Prototype 1\bin\Debug\System.IO.Compression.dll
+C:\Users\Student\Desktop\Combined\SECM - Car Park Prototype 1 (1)\SECM - Car Park Prototype 1\bin\Debug\System.IO.Compression.ZipFile.dll
+C:\Users\Student\Desktop\Combined\SECM - Car Park Prototype 1 (1)\SECM - Car Park Prototype 1\bin\Debug\System.IO.FileSystem.dll
+C:\Users\Student\Desktop\Combined\SECM - Car Park Prototype 1 (1)\SECM - Car Park Prototype 1\bin\Debug\System.IO.FileSystem.Primitives.dll
+C:\Users\Student\Desktop\Combined\SECM - Car Park Prototype 1 (1)\SECM - Car Park Prototype 1\bin\Debug\System.Net.Http.dll
+C:\Users\Student\Desktop\Combined\SECM - Car Park Prototype 1 (1)\SECM - Car Park Prototype 1\bin\Debug\System.Net.Sockets.dll
+C:\Users\Student\Desktop\Combined\SECM - Car Park Prototype 1 (1)\SECM - Car Park Prototype 1\bin\Debug\System.Reactive.Core.dll
+C:\Users\Student\Desktop\Combined\SECM - Car Park Prototype 1 (1)\SECM - Car Park Prototype 1\bin\Debug\System.Reactive.Interfaces.dll
+C:\Users\Student\Desktop\Combined\SECM - Car Park Prototype 1 (1)\SECM - Car Park Prototype 1\bin\Debug\System.Reactive.Linq.dll
+C:\Users\Student\Desktop\Combined\SECM - Car Park Prototype 1 (1)\SECM - Car Park Prototype 1\bin\Debug\System.Reactive.PlatformServices.dll
+C:\Users\Student\Desktop\Combined\SECM - Car Park Prototype 1 (1)\SECM - Car Park Prototype 1\bin\Debug\System.Reactive.Windows.Threading.dll
+C:\Users\Student\Desktop\Combined\SECM - Car Park Prototype 1 (1)\SECM - Car Park Prototype 1\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Student\Desktop\Combined\SECM - Car Park Prototype 1 (1)\SECM - Car Park Prototype 1\bin\Debug\System.Security.Cryptography.Algorithms.dll
+C:\Users\Student\Desktop\Combined\SECM - Car Park Prototype 1 (1)\SECM - Car Park Prototype 1\bin\Debug\System.Security.Cryptography.Encoding.dll
+C:\Users\Student\Desktop\Combined\SECM - Car Park Prototype 1 (1)\SECM - Car Park Prototype 1\bin\Debug\System.Security.Cryptography.Primitives.dll
+C:\Users\Student\Desktop\Combined\SECM - Car Park Prototype 1 (1)\SECM - Car Park Prototype 1\bin\Debug\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Student\Desktop\Combined\SECM - Car Park Prototype 1 (1)\SECM - Car Park Prototype 1\bin\Debug\System.Xml.ReaderWriter.dll
+C:\Users\Student\Desktop\Combined\SECM - Car Park Prototype 1 (1)\SECM - Car Park Prototype 1\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Student\Desktop\Combined\SECM - Car Park Prototype 1 (1)\SECM - Car Park Prototype 1\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\Student\Desktop\Combined\SECM - Car Park Prototype 1 (1)\SECM - Car Park Prototype 1\bin\Debug\System.Reactive.Core.xml
+C:\Users\Student\Desktop\Combined\SECM - Car Park Prototype 1 (1)\SECM - Car Park Prototype 1\bin\Debug\System.Reactive.Interfaces.xml
+C:\Users\Student\Desktop\Combined\SECM - Car Park Prototype 1 (1)\SECM - Car Park Prototype 1\bin\Debug\System.Reactive.Linq.xml
+C:\Users\Student\Desktop\Combined\SECM - Car Park Prototype 1 (1)\SECM - Car Park Prototype 1\bin\Debug\System.Reactive.PlatformServices.xml
+C:\Users\Student\Desktop\Combined\SECM - Car Park Prototype 1 (1)\SECM - Car Park Prototype 1\bin\Debug\System.Reactive.Windows.Threading.xml
+C:\Users\Student\Desktop\Combined\SECM - Car Park Prototype 1 (1)\SECM - Car Park Prototype 1\obj\Debug\SECM - Car Park Prototype 1.csprojResolveAssemblyReference.cache
+C:\Users\Student\Desktop\Combined\SECM - Car Park Prototype 1 (1)\SECM - Car Park Prototype 1\obj\Debug\SECM - Car Park Prototype 1.csproj.ResolveComReference.cache
+C:\Users\Student\Desktop\Combined\SECM - Car Park Prototype 1 (1)\SECM - Car Park Prototype 1\obj\Debug\SECM___Car_Park_Prototype_1.CarParkDB.resources
+C:\Users\Student\Desktop\Combined\SECM - Car Park Prototype 1 (1)\SECM - Car Park Prototype 1\obj\Debug\SECM___Car_Park_Prototype_1.CarParkMenu.resources
+C:\Users\Student\Desktop\Combined\SECM - Car Park Prototype 1 (1)\SECM - Car Park Prototype 1\obj\Debug\SECM___Car_Park_Prototype_1.CryptoPayment.resources
+C:\Users\Student\Desktop\Combined\SECM - Car Park Prototype 1 (1)\SECM - Car Park Prototype 1\obj\Debug\SECM___Car_Park_Prototype_1.EnterPark.resources
+C:\Users\Student\Desktop\Combined\SECM - Car Park Prototype 1 (1)\SECM - Car Park Prototype 1\obj\Debug\SECM___Car_Park_Prototype_1.ExitBarrierPanel.resources
+C:\Users\Student\Desktop\Combined\SECM - Car Park Prototype 1 (1)\SECM - Car Park Prototype 1\obj\Debug\SECM___Car_Park_Prototype_1.ExitPark.resources
+C:\Users\Student\Desktop\Combined\SECM - Car Park Prototype 1 (1)\SECM - Car Park Prototype 1\obj\Debug\SECM___Car_Park_Prototype_1.NewCustomer.resources
+C:\Users\Student\Desktop\Combined\SECM - Car Park Prototype 1 (1)\SECM - Car Park Prototype 1\obj\Debug\SECM___Car_Park_Prototype_1.ParkingBay.resources
+C:\Users\Student\Desktop\Combined\SECM - Car Park Prototype 1 (1)\SECM - Car Park Prototype 1\obj\Debug\SECM___Car_Park_Prototype_1.PaymentMachine.resources
+C:\Users\Student\Desktop\Combined\SECM - Car Park Prototype 1 (1)\SECM - Car Park Prototype 1\obj\Debug\SECM___Car_Park_Prototype_1.SetupCarPark.resources
+C:\Users\Student\Desktop\Combined\SECM - Car Park Prototype 1 (1)\SECM - Car Park Prototype 1\obj\Debug\SECM___Car_Park_Prototype_1.Properties.Resources.resources
+C:\Users\Student\Desktop\Combined\SECM - Car Park Prototype 1 (1)\SECM - Car Park Prototype 1\obj\Debug\SECM - Car Park Prototype 1.csproj.GenerateResource.Cache
+C:\Users\Student\Desktop\Combined\SECM - Car Park Prototype 1 (1)\SECM - Car Park Prototype 1\obj\Debug\SECM - Car Park Prototype 1.csproj.CoreCompileInputs.cache
+C:\Users\Student\Desktop\Combined\SECM - Car Park Prototype 1 (1)\SECM - Car Park Prototype 1\obj\Debug\SECM - Car Park Prototype 1.exe
+C:\Users\Student\Desktop\Combined\SECM - Car Park Prototype 1 (1)\SECM - Car Park Prototype 1\obj\Debug\SECM - Car Park Prototype 1.pdb
+C:\Users\Student\Desktop\Combined\SECM - Car Park Prototype 1 (1)\SECM - Car Park Prototype 1\bin\Debug\Emgu.CV.dll
+C:\Users\Student\Desktop\Combined\SECM - Car Park Prototype 1 (1)\SECM - Car Park Prototype 1\bin\Debug\Emgu.CV.GPU.dll
+C:\Users\Student\Desktop\Combined\SECM - Car Park Prototype 1 (1)\SECM - Car Park Prototype 1\bin\Debug\Emgu.CV.ML.dll
+C:\Users\Student\Desktop\Combined\SECM - Car Park Prototype 1 (1)\SECM - Car Park Prototype 1\bin\Debug\Emgu.CV.UI.dll
+C:\Users\Student\Desktop\Combined\SECM - Car Park Prototype 1 (1)\SECM - Car Park Prototype 1\bin\Debug\Emgu.Util.dll
+C:\Users\Student\Desktop\Combined\SECM - Car Park Prototype 1 (1)\SECM - Car Park Prototype 1\bin\Debug\Emgu.CV.xml
+C:\Users\Student\Desktop\Combined\SECM - Car Park Prototype 1 (1)\SECM - Car Park Prototype 1\bin\Debug\Emgu.CV.UI.xml
+C:\Users\Student\Desktop\Combined\SECM - Car Park Prototype 1 (1)\SECM - Car Park Prototype 1\bin\Debug\Emgu.Util.xml
+C:\Users\Student\Desktop\Combined\SECM - Car Park Prototype 1 (1)\SECM - Car Park Prototype 1\obj\Debug\SECM___Car_Park_Prototype_1.MainForm.resources
+C:\Users\Student\Desktop\Combined\SECM - Car Park Prototype 1 (1)\SECM - Car Park Prototype 1\obj\Debug\SECM___Car_Park_Prototype_1.FrmPrincipal.resources
+C:\Users\andyl\Desktop\SECM - Car Park Prototype 1 (1)\SECM - Car Park Prototype 1\bin\Debug\SECM - Car Park Prototype 1.exe.config
+C:\Users\andyl\Desktop\SECM - Car Park Prototype 1 (1)\SECM - Car Park Prototype 1\bin\Debug\SECM - Car Park Prototype 1.exe
+C:\Users\andyl\Desktop\SECM - Car Park Prototype 1 (1)\SECM - Car Park Prototype 1\bin\Debug\SECM - Car Park Prototype 1.pdb
+C:\Users\andyl\Desktop\SECM - Car Park Prototype 1 (1)\SECM - Car Park Prototype 1\bin\Debug\AForge.dll
+C:\Users\andyl\Desktop\SECM - Car Park Prototype 1 (1)\SECM - Car Park Prototype 1\bin\Debug\AForge.Video.DirectShow.dll
+C:\Users\andyl\Desktop\SECM - Car Park Prototype 1 (1)\SECM - Car Park Prototype 1\bin\Debug\AForge.Video.dll
+C:\Users\andyl\Desktop\SECM - Car Park Prototype 1 (1)\SECM - Car Park Prototype 1\bin\Debug\Firebase.dll
+C:\Users\andyl\Desktop\SECM - Car Park Prototype 1 (1)\SECM - Car Park Prototype 1\bin\Debug\Microsoft.Win32.Primitives.dll
+C:\Users\andyl\Desktop\SECM - Car Park Prototype 1 (1)\SECM - Car Park Prototype 1\bin\Debug\Newtonsoft.Json.dll
+C:\Users\andyl\Desktop\SECM - Car Park Prototype 1 (1)\SECM - Car Park Prototype 1\bin\Debug\System.AppContext.dll
+C:\Users\andyl\Desktop\SECM - Car Park Prototype 1 (1)\SECM - Car Park Prototype 1\bin\Debug\System.Console.dll
+C:\Users\andyl\Desktop\SECM - Car Park Prototype 1 (1)\SECM - Car Park Prototype 1\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\andyl\Desktop\SECM - Car Park Prototype 1 (1)\SECM - Car Park Prototype 1\bin\Debug\System.Globalization.Calendars.dll
+C:\Users\andyl\Desktop\SECM - Car Park Prototype 1 (1)\SECM - Car Park Prototype 1\bin\Debug\System.IO.Compression.dll
+C:\Users\andyl\Desktop\SECM - Car Park Prototype 1 (1)\SECM - Car Park Prototype 1\bin\Debug\System.IO.Compression.ZipFile.dll
+C:\Users\andyl\Desktop\SECM - Car Park Prototype 1 (1)\SECM - Car Park Prototype 1\bin\Debug\System.IO.FileSystem.dll
+C:\Users\andyl\Desktop\SECM - Car Park Prototype 1 (1)\SECM - Car Park Prototype 1\bin\Debug\System.IO.FileSystem.Primitives.dll
+C:\Users\andyl\Desktop\SECM - Car Park Prototype 1 (1)\SECM - Car Park Prototype 1\bin\Debug\System.Net.Http.dll
+C:\Users\andyl\Desktop\SECM - Car Park Prototype 1 (1)\SECM - Car Park Prototype 1\bin\Debug\System.Net.Sockets.dll
+C:\Users\andyl\Desktop\SECM - Car Park Prototype 1 (1)\SECM - Car Park Prototype 1\bin\Debug\System.Reactive.Core.dll
+C:\Users\andyl\Desktop\SECM - Car Park Prototype 1 (1)\SECM - Car Park Prototype 1\bin\Debug\System.Reactive.Interfaces.dll
+C:\Users\andyl\Desktop\SECM - Car Park Prototype 1 (1)\SECM - Car Park Prototype 1\bin\Debug\System.Reactive.Linq.dll
+C:\Users\andyl\Desktop\SECM - Car Park Prototype 1 (1)\SECM - Car Park Prototype 1\bin\Debug\System.Reactive.PlatformServices.dll
+C:\Users\andyl\Desktop\SECM - Car Park Prototype 1 (1)\SECM - Car Park Prototype 1\bin\Debug\System.Reactive.Windows.Threading.dll
+C:\Users\andyl\Desktop\SECM - Car Park Prototype 1 (1)\SECM - Car Park Prototype 1\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\andyl\Desktop\SECM - Car Park Prototype 1 (1)\SECM - Car Park Prototype 1\bin\Debug\System.Security.Cryptography.Algorithms.dll
+C:\Users\andyl\Desktop\SECM - Car Park Prototype 1 (1)\SECM - Car Park Prototype 1\bin\Debug\System.Security.Cryptography.Encoding.dll
+C:\Users\andyl\Desktop\SECM - Car Park Prototype 1 (1)\SECM - Car Park Prototype 1\bin\Debug\System.Security.Cryptography.Primitives.dll
+C:\Users\andyl\Desktop\SECM - Car Park Prototype 1 (1)\SECM - Car Park Prototype 1\bin\Debug\System.Security.Cryptography.X509Certificates.dll
+C:\Users\andyl\Desktop\SECM - Car Park Prototype 1 (1)\SECM - Car Park Prototype 1\bin\Debug\System.Xml.ReaderWriter.dll
+C:\Users\andyl\Desktop\SECM - Car Park Prototype 1 (1)\SECM - Car Park Prototype 1\bin\Debug\AForge.xml
+C:\Users\andyl\Desktop\SECM - Car Park Prototype 1 (1)\SECM - Car Park Prototype 1\bin\Debug\AForge.Video.xml
+C:\Users\andyl\Desktop\SECM - Car Park Prototype 1 (1)\SECM - Car Park Prototype 1\bin\Debug\AForge.Video.DirectShow.xml
+C:\Users\andyl\Desktop\SECM - Car Park Prototype 1 (1)\SECM - Car Park Prototype 1\bin\Debug\Emgu.CV.xml
+C:\Users\andyl\Desktop\SECM - Car Park Prototype 1 (1)\SECM - Car Park Prototype 1\bin\Debug\Emgu.CV.UI.xml
+C:\Users\andyl\Desktop\SECM - Car Park Prototype 1 (1)\SECM - Car Park Prototype 1\bin\Debug\Emgu.Util.xml
+C:\Users\andyl\Desktop\SECM - Car Park Prototype 1 (1)\SECM - Car Park Prototype 1\bin\Debug\Newtonsoft.Json.xml
+C:\Users\andyl\Desktop\SECM - Car Park Prototype 1 (1)\SECM - Car Park Prototype 1\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\andyl\Desktop\SECM - Car Park Prototype 1 (1)\SECM - Car Park Prototype 1\bin\Debug\System.Reactive.Core.xml
+C:\Users\andyl\Desktop\SECM - Car Park Prototype 1 (1)\SECM - Car Park Prototype 1\bin\Debug\System.Reactive.Interfaces.xml
+C:\Users\andyl\Desktop\SECM - Car Park Prototype 1 (1)\SECM - Car Park Prototype 1\bin\Debug\System.Reactive.Linq.xml
+C:\Users\andyl\Desktop\SECM - Car Park Prototype 1 (1)\SECM - Car Park Prototype 1\bin\Debug\System.Reactive.PlatformServices.xml
+C:\Users\andyl\Desktop\SECM - Car Park Prototype 1 (1)\SECM - Car Park Prototype 1\bin\Debug\System.Reactive.Windows.Threading.xml
+C:\Users\andyl\Desktop\SECM - Car Park Prototype 1 (1)\SECM - Car Park Prototype 1\obj\Debug\SECM - Car Park Prototype 1.csprojResolveAssemblyReference.cache
+C:\Users\andyl\Desktop\SECM - Car Park Prototype 1 (1)\SECM - Car Park Prototype 1\obj\Debug\SECM - Car Park Prototype 1.csproj.ResolveComReference.cache
+C:\Users\andyl\Desktop\SECM - Car Park Prototype 1 (1)\SECM - Car Park Prototype 1\obj\Debug\SECM___Car_Park_Prototype_1.CarParkDB.resources
+C:\Users\andyl\Desktop\SECM - Car Park Prototype 1 (1)\SECM - Car Park Prototype 1\obj\Debug\SECM___Car_Park_Prototype_1.CarParkMenu.resources
+C:\Users\andyl\Desktop\SECM - Car Park Prototype 1 (1)\SECM - Car Park Prototype 1\obj\Debug\SECM___Car_Park_Prototype_1.CryptoPayment.resources
+C:\Users\andyl\Desktop\SECM - Car Park Prototype 1 (1)\SECM - Car Park Prototype 1\obj\Debug\SECM___Car_Park_Prototype_1.DirectDebit.resources
+C:\Users\andyl\Desktop\SECM - Car Park Prototype 1 (1)\SECM - Car Park Prototype 1\obj\Debug\SECM___Car_Park_Prototype_1.EnterPark.resources
+C:\Users\andyl\Desktop\SECM - Car Park Prototype 1 (1)\SECM - Car Park Prototype 1\obj\Debug\SECM___Car_Park_Prototype_1.ExitBarrierPanel.resources
+C:\Users\andyl\Desktop\SECM - Car Park Prototype 1 (1)\SECM - Car Park Prototype 1\obj\Debug\SECM___Car_Park_Prototype_1.ExitPark.resources
+C:\Users\andyl\Desktop\SECM - Car Park Prototype 1 (1)\SECM - Car Park Prototype 1\obj\Debug\SECM___Car_Park_Prototype_1.FaceID.resources
+C:\Users\andyl\Desktop\SECM - Car Park Prototype 1 (1)\SECM - Car Park Prototype 1\obj\Debug\SECM___Car_Park_Prototype_1.FacialRecognition.resources
+C:\Users\andyl\Desktop\SECM - Car Park Prototype 1 (1)\SECM - Car Park Prototype 1\obj\Debug\SECM___Car_Park_Prototype_1.NewCustomer.resources
+C:\Users\andyl\Desktop\SECM - Car Park Prototype 1 (1)\SECM - Car Park Prototype 1\obj\Debug\SECM___Car_Park_Prototype_1.ParkingBay.resources
+C:\Users\andyl\Desktop\SECM - Car Park Prototype 1 (1)\SECM - Car Park Prototype 1\obj\Debug\SECM___Car_Park_Prototype_1.PaymentMachine.resources
+C:\Users\andyl\Desktop\SECM - Car Park Prototype 1 (1)\SECM - Car Park Prototype 1\obj\Debug\SECM___Car_Park_Prototype_1.PurchaseVoucher.resources
+C:\Users\andyl\Desktop\SECM - Car Park Prototype 1 (1)\SECM - Car Park Prototype 1\obj\Debug\SECM___Car_Park_Prototype_1.RelieveDebt.resources
+C:\Users\andyl\Desktop\SECM - Car Park Prototype 1 (1)\SECM - Car Park Prototype 1\obj\Debug\SECM___Car_Park_Prototype_1.SetupCarPark.resources
+C:\Users\andyl\Desktop\SECM - Car Park Prototype 1 (1)\SECM - Car Park Prototype 1\obj\Debug\SECM___Car_Park_Prototype_1.Properties.Resources.resources
+C:\Users\andyl\Desktop\SECM - Car Park Prototype 1 (1)\SECM - Car Park Prototype 1\obj\Debug\SECM___Car_Park_Prototype_1.UpdateCustomer.resources
+C:\Users\andyl\Desktop\SECM - Car Park Prototype 1 (1)\SECM - Car Park Prototype 1\obj\Debug\SECM - Car Park Prototype 1.csproj.GenerateResource.Cache
+C:\Users\andyl\Desktop\SECM - Car Park Prototype 1 (1)\SECM - Car Park Prototype 1\obj\Debug\SECM - Car Park Prototype 1.csproj.CoreCompileInputs.cache
+C:\Users\andyl\Desktop\SECM - Car Park Prototype 1 (1)\SECM - Car Park Prototype 1\obj\Debug\SECM - Car Park Prototype 1.exe
+C:\Users\andyl\Desktop\SECM - Car Park Prototype 1 (1)\SECM - Car Park Prototype 1\obj\Debug\SECM - Car Park Prototype 1.pdb
+C:\Users\andyl\Desktop\SECM - Car Park Prototype\SECM - Car Park Prototype 1\bin\Debug\SECM - Car Park Prototype 1.exe.config
+C:\Users\andyl\Desktop\SECM - Car Park Prototype\SECM - Car Park Prototype 1\bin\Debug\SECM - Car Park Prototype 1.exe
+C:\Users\andyl\Desktop\SECM - Car Park Prototype\SECM - Car Park Prototype 1\bin\Debug\SECM - Car Park Prototype 1.pdb
+C:\Users\andyl\Desktop\SECM - Car Park Prototype\SECM - Car Park Prototype 1\bin\Debug\AForge.dll
+C:\Users\andyl\Desktop\SECM - Car Park Prototype\SECM - Car Park Prototype 1\bin\Debug\AForge.Video.DirectShow.dll
+C:\Users\andyl\Desktop\SECM - Car Park Prototype\SECM - Car Park Prototype 1\bin\Debug\AForge.Video.dll
+C:\Users\andyl\Desktop\SECM - Car Park Prototype\SECM - Car Park Prototype 1\bin\Debug\Firebase.dll
+C:\Users\andyl\Desktop\SECM - Car Park Prototype\SECM - Car Park Prototype 1\bin\Debug\Microsoft.Win32.Primitives.dll
+C:\Users\andyl\Desktop\SECM - Car Park Prototype\SECM - Car Park Prototype 1\bin\Debug\Newtonsoft.Json.dll
+C:\Users\andyl\Desktop\SECM - Car Park Prototype\SECM - Car Park Prototype 1\bin\Debug\System.AppContext.dll
+C:\Users\andyl\Desktop\SECM - Car Park Prototype\SECM - Car Park Prototype 1\bin\Debug\System.Console.dll
+C:\Users\andyl\Desktop\SECM - Car Park Prototype\SECM - Car Park Prototype 1\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\andyl\Desktop\SECM - Car Park Prototype\SECM - Car Park Prototype 1\bin\Debug\System.Globalization.Calendars.dll
+C:\Users\andyl\Desktop\SECM - Car Park Prototype\SECM - Car Park Prototype 1\bin\Debug\System.IO.Compression.dll
+C:\Users\andyl\Desktop\SECM - Car Park Prototype\SECM - Car Park Prototype 1\bin\Debug\System.IO.Compression.ZipFile.dll
+C:\Users\andyl\Desktop\SECM - Car Park Prototype\SECM - Car Park Prototype 1\bin\Debug\System.IO.FileSystem.dll
+C:\Users\andyl\Desktop\SECM - Car Park Prototype\SECM - Car Park Prototype 1\bin\Debug\System.IO.FileSystem.Primitives.dll
+C:\Users\andyl\Desktop\SECM - Car Park Prototype\SECM - Car Park Prototype 1\bin\Debug\System.Net.Http.dll
+C:\Users\andyl\Desktop\SECM - Car Park Prototype\SECM - Car Park Prototype 1\bin\Debug\System.Net.Sockets.dll
+C:\Users\andyl\Desktop\SECM - Car Park Prototype\SECM - Car Park Prototype 1\bin\Debug\System.Reactive.Core.dll
+C:\Users\andyl\Desktop\SECM - Car Park Prototype\SECM - Car Park Prototype 1\bin\Debug\System.Reactive.Interfaces.dll
+C:\Users\andyl\Desktop\SECM - Car Park Prototype\SECM - Car Park Prototype 1\bin\Debug\System.Reactive.Linq.dll
+C:\Users\andyl\Desktop\SECM - Car Park Prototype\SECM - Car Park Prototype 1\bin\Debug\System.Reactive.PlatformServices.dll
+C:\Users\andyl\Desktop\SECM - Car Park Prototype\SECM - Car Park Prototype 1\bin\Debug\System.Reactive.Windows.Threading.dll
+C:\Users\andyl\Desktop\SECM - Car Park Prototype\SECM - Car Park Prototype 1\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\andyl\Desktop\SECM - Car Park Prototype\SECM - Car Park Prototype 1\bin\Debug\System.Security.Cryptography.Algorithms.dll
+C:\Users\andyl\Desktop\SECM - Car Park Prototype\SECM - Car Park Prototype 1\bin\Debug\System.Security.Cryptography.Encoding.dll
+C:\Users\andyl\Desktop\SECM - Car Park Prototype\SECM - Car Park Prototype 1\bin\Debug\System.Security.Cryptography.Primitives.dll
+C:\Users\andyl\Desktop\SECM - Car Park Prototype\SECM - Car Park Prototype 1\bin\Debug\System.Security.Cryptography.X509Certificates.dll
+C:\Users\andyl\Desktop\SECM - Car Park Prototype\SECM - Car Park Prototype 1\bin\Debug\System.Xml.ReaderWriter.dll
+C:\Users\andyl\Desktop\SECM - Car Park Prototype\SECM - Car Park Prototype 1\bin\Debug\AForge.xml
+C:\Users\andyl\Desktop\SECM - Car Park Prototype\SECM - Car Park Prototype 1\bin\Debug\AForge.Video.xml
+C:\Users\andyl\Desktop\SECM - Car Park Prototype\SECM - Car Park Prototype 1\bin\Debug\AForge.Video.DirectShow.xml
+C:\Users\andyl\Desktop\SECM - Car Park Prototype\SECM - Car Park Prototype 1\bin\Debug\Emgu.CV.xml
+C:\Users\andyl\Desktop\SECM - Car Park Prototype\SECM - Car Park Prototype 1\bin\Debug\Emgu.CV.UI.xml
+C:\Users\andyl\Desktop\SECM - Car Park Prototype\SECM - Car Park Prototype 1\bin\Debug\Emgu.Util.xml
+C:\Users\andyl\Desktop\SECM - Car Park Prototype\SECM - Car Park Prototype 1\bin\Debug\Newtonsoft.Json.xml
+C:\Users\andyl\Desktop\SECM - Car Park Prototype\SECM - Car Park Prototype 1\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\andyl\Desktop\SECM - Car Park Prototype\SECM - Car Park Prototype 1\bin\Debug\System.Reactive.Core.xml
+C:\Users\andyl\Desktop\SECM - Car Park Prototype\SECM - Car Park Prototype 1\bin\Debug\System.Reactive.Interfaces.xml
+C:\Users\andyl\Desktop\SECM - Car Park Prototype\SECM - Car Park Prototype 1\bin\Debug\System.Reactive.Linq.xml
+C:\Users\andyl\Desktop\SECM - Car Park Prototype\SECM - Car Park Prototype 1\bin\Debug\System.Reactive.PlatformServices.xml
+C:\Users\andyl\Desktop\SECM - Car Park Prototype\SECM - Car Park Prototype 1\bin\Debug\System.Reactive.Windows.Threading.xml
+C:\Users\andyl\Desktop\SECM - Car Park Prototype\SECM - Car Park Prototype 1\obj\Debug\SECM - Car Park Prototype 1.csprojResolveAssemblyReference.cache
+C:\Users\andyl\Desktop\SECM - Car Park Prototype\SECM - Car Park Prototype 1\obj\Debug\SECM - Car Park Prototype 1.csproj.ResolveComReference.cache
+C:\Users\andyl\Desktop\SECM - Car Park Prototype\SECM - Car Park Prototype 1\obj\Debug\SECM___Car_Park_Prototype_1.CarParkDB.resources
+C:\Users\andyl\Desktop\SECM - Car Park Prototype\SECM - Car Park Prototype 1\obj\Debug\SECM___Car_Park_Prototype_1.CarParkMenu.resources
+C:\Users\andyl\Desktop\SECM - Car Park Prototype\SECM - Car Park Prototype 1\obj\Debug\SECM___Car_Park_Prototype_1.CryptoPayment.resources
+C:\Users\andyl\Desktop\SECM - Car Park Prototype\SECM - Car Park Prototype 1\obj\Debug\SECM___Car_Park_Prototype_1.DirectDebit.resources
+C:\Users\andyl\Desktop\SECM - Car Park Prototype\SECM - Car Park Prototype 1\obj\Debug\SECM___Car_Park_Prototype_1.EnterPark.resources
+C:\Users\andyl\Desktop\SECM - Car Park Prototype\SECM - Car Park Prototype 1\obj\Debug\SECM___Car_Park_Prototype_1.ExitBarrierPanel.resources
+C:\Users\andyl\Desktop\SECM - Car Park Prototype\SECM - Car Park Prototype 1\obj\Debug\SECM___Car_Park_Prototype_1.ExitPark.resources
+C:\Users\andyl\Desktop\SECM - Car Park Prototype\SECM - Car Park Prototype 1\obj\Debug\SECM___Car_Park_Prototype_1.FaceID.resources
+C:\Users\andyl\Desktop\SECM - Car Park Prototype\SECM - Car Park Prototype 1\obj\Debug\SECM___Car_Park_Prototype_1.FacialRecognition.resources
+C:\Users\andyl\Desktop\SECM - Car Park Prototype\SECM - Car Park Prototype 1\obj\Debug\SECM___Car_Park_Prototype_1.NewCustomer.resources
+C:\Users\andyl\Desktop\SECM - Car Park Prototype\SECM - Car Park Prototype 1\obj\Debug\SECM___Car_Park_Prototype_1.ParkingBay.resources
+C:\Users\andyl\Desktop\SECM - Car Park Prototype\SECM - Car Park Prototype 1\obj\Debug\SECM___Car_Park_Prototype_1.PaymentMachine.resources
+C:\Users\andyl\Desktop\SECM - Car Park Prototype\SECM - Car Park Prototype 1\obj\Debug\SECM___Car_Park_Prototype_1.PurchaseVoucher.resources
+C:\Users\andyl\Desktop\SECM - Car Park Prototype\SECM - Car Park Prototype 1\obj\Debug\SECM___Car_Park_Prototype_1.RelieveDebt.resources
+C:\Users\andyl\Desktop\SECM - Car Park Prototype\SECM - Car Park Prototype 1\obj\Debug\SECM___Car_Park_Prototype_1.SetupCarPark.resources
+C:\Users\andyl\Desktop\SECM - Car Park Prototype\SECM - Car Park Prototype 1\obj\Debug\SECM___Car_Park_Prototype_1.Properties.Resources.resources
+C:\Users\andyl\Desktop\SECM - Car Park Prototype\SECM - Car Park Prototype 1\obj\Debug\SECM___Car_Park_Prototype_1.UpdateCustomer.resources
+C:\Users\andyl\Desktop\SECM - Car Park Prototype\SECM - Car Park Prototype 1\obj\Debug\SECM - Car Park Prototype 1.csproj.GenerateResource.Cache
+C:\Users\andyl\Desktop\SECM - Car Park Prototype\SECM - Car Park Prototype 1\obj\Debug\SECM - Car Park Prototype 1.csproj.CoreCompileInputs.cache
+C:\Users\andyl\Desktop\SECM - Car Park Prototype\SECM - Car Park Prototype 1\obj\Debug\SECM - Car Park Prototype 1.exe
+C:\Users\andyl\Desktop\SECM - Car Park Prototype\SECM - Car Park Prototype 1\obj\Debug\SECM - Car Park Prototype 1.pdb
+C:\Users\andyl\Documents\GitHub\SECM---Car-Park-Prototype-1\SECM - Car Park Prototype 1\bin\Debug\SECM - Car Park Prototype 1.exe.config
+C:\Users\andyl\Documents\GitHub\SECM---Car-Park-Prototype-1\SECM - Car Park Prototype 1\bin\Debug\SECM - Car Park Prototype 1.exe
+C:\Users\andyl\Documents\GitHub\SECM---Car-Park-Prototype-1\SECM - Car Park Prototype 1\bin\Debug\SECM - Car Park Prototype 1.pdb
+C:\Users\andyl\Documents\GitHub\SECM---Car-Park-Prototype-1\SECM - Car Park Prototype 1\bin\Debug\AForge.dll
+C:\Users\andyl\Documents\GitHub\SECM---Car-Park-Prototype-1\SECM - Car Park Prototype 1\bin\Debug\AForge.Video.DirectShow.dll
+C:\Users\andyl\Documents\GitHub\SECM---Car-Park-Prototype-1\SECM - Car Park Prototype 1\bin\Debug\AForge.Video.dll
+C:\Users\andyl\Documents\GitHub\SECM---Car-Park-Prototype-1\SECM - Car Park Prototype 1\bin\Debug\Firebase.dll
+C:\Users\andyl\Documents\GitHub\SECM---Car-Park-Prototype-1\SECM - Car Park Prototype 1\bin\Debug\Microsoft.Win32.Primitives.dll
+C:\Users\andyl\Documents\GitHub\SECM---Car-Park-Prototype-1\SECM - Car Park Prototype 1\bin\Debug\Newtonsoft.Json.dll
+C:\Users\andyl\Documents\GitHub\SECM---Car-Park-Prototype-1\SECM - Car Park Prototype 1\bin\Debug\System.AppContext.dll
+C:\Users\andyl\Documents\GitHub\SECM---Car-Park-Prototype-1\SECM - Car Park Prototype 1\bin\Debug\System.Console.dll
+C:\Users\andyl\Documents\GitHub\SECM---Car-Park-Prototype-1\SECM - Car Park Prototype 1\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\andyl\Documents\GitHub\SECM---Car-Park-Prototype-1\SECM - Car Park Prototype 1\bin\Debug\System.Globalization.Calendars.dll
+C:\Users\andyl\Documents\GitHub\SECM---Car-Park-Prototype-1\SECM - Car Park Prototype 1\bin\Debug\System.IO.Compression.dll
+C:\Users\andyl\Documents\GitHub\SECM---Car-Park-Prototype-1\SECM - Car Park Prototype 1\bin\Debug\System.IO.Compression.ZipFile.dll
+C:\Users\andyl\Documents\GitHub\SECM---Car-Park-Prototype-1\SECM - Car Park Prototype 1\bin\Debug\System.IO.FileSystem.dll
+C:\Users\andyl\Documents\GitHub\SECM---Car-Park-Prototype-1\SECM - Car Park Prototype 1\bin\Debug\System.IO.FileSystem.Primitives.dll
+C:\Users\andyl\Documents\GitHub\SECM---Car-Park-Prototype-1\SECM - Car Park Prototype 1\bin\Debug\System.Net.Http.dll
+C:\Users\andyl\Documents\GitHub\SECM---Car-Park-Prototype-1\SECM - Car Park Prototype 1\bin\Debug\System.Net.Sockets.dll
+C:\Users\andyl\Documents\GitHub\SECM---Car-Park-Prototype-1\SECM - Car Park Prototype 1\bin\Debug\System.Reactive.Core.dll
+C:\Users\andyl\Documents\GitHub\SECM---Car-Park-Prototype-1\SECM - Car Park Prototype 1\bin\Debug\System.Reactive.Interfaces.dll
+C:\Users\andyl\Documents\GitHub\SECM---Car-Park-Prototype-1\SECM - Car Park Prototype 1\bin\Debug\System.Reactive.Linq.dll
+C:\Users\andyl\Documents\GitHub\SECM---Car-Park-Prototype-1\SECM - Car Park Prototype 1\bin\Debug\System.Reactive.PlatformServices.dll
+C:\Users\andyl\Documents\GitHub\SECM---Car-Park-Prototype-1\SECM - Car Park Prototype 1\bin\Debug\System.Reactive.Windows.Threading.dll
+C:\Users\andyl\Documents\GitHub\SECM---Car-Park-Prototype-1\SECM - Car Park Prototype 1\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\andyl\Documents\GitHub\SECM---Car-Park-Prototype-1\SECM - Car Park Prototype 1\bin\Debug\System.Security.Cryptography.Algorithms.dll
+C:\Users\andyl\Documents\GitHub\SECM---Car-Park-Prototype-1\SECM - Car Park Prototype 1\bin\Debug\System.Security.Cryptography.Encoding.dll
+C:\Users\andyl\Documents\GitHub\SECM---Car-Park-Prototype-1\SECM - Car Park Prototype 1\bin\Debug\System.Security.Cryptography.Primitives.dll
+C:\Users\andyl\Documents\GitHub\SECM---Car-Park-Prototype-1\SECM - Car Park Prototype 1\bin\Debug\System.Security.Cryptography.X509Certificates.dll
+C:\Users\andyl\Documents\GitHub\SECM---Car-Park-Prototype-1\SECM - Car Park Prototype 1\bin\Debug\System.Xml.ReaderWriter.dll
+C:\Users\andyl\Documents\GitHub\SECM---Car-Park-Prototype-1\SECM - Car Park Prototype 1\bin\Debug\AForge.xml
+C:\Users\andyl\Documents\GitHub\SECM---Car-Park-Prototype-1\SECM - Car Park Prototype 1\bin\Debug\AForge.Video.xml
+C:\Users\andyl\Documents\GitHub\SECM---Car-Park-Prototype-1\SECM - Car Park Prototype 1\bin\Debug\AForge.Video.DirectShow.xml
+C:\Users\andyl\Documents\GitHub\SECM---Car-Park-Prototype-1\SECM - Car Park Prototype 1\bin\Debug\Emgu.CV.xml
+C:\Users\andyl\Documents\GitHub\SECM---Car-Park-Prototype-1\SECM - Car Park Prototype 1\bin\Debug\Emgu.CV.UI.xml
+C:\Users\andyl\Documents\GitHub\SECM---Car-Park-Prototype-1\SECM - Car Park Prototype 1\bin\Debug\Emgu.Util.xml
+C:\Users\andyl\Documents\GitHub\SECM---Car-Park-Prototype-1\SECM - Car Park Prototype 1\bin\Debug\Newtonsoft.Json.xml
+C:\Users\andyl\Documents\GitHub\SECM---Car-Park-Prototype-1\SECM - Car Park Prototype 1\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\andyl\Documents\GitHub\SECM---Car-Park-Prototype-1\SECM - Car Park Prototype 1\bin\Debug\System.Reactive.Core.xml
+C:\Users\andyl\Documents\GitHub\SECM---Car-Park-Prototype-1\SECM - Car Park Prototype 1\bin\Debug\System.Reactive.Interfaces.xml
+C:\Users\andyl\Documents\GitHub\SECM---Car-Park-Prototype-1\SECM - Car Park Prototype 1\bin\Debug\System.Reactive.Linq.xml
+C:\Users\andyl\Documents\GitHub\SECM---Car-Park-Prototype-1\SECM - Car Park Prototype 1\bin\Debug\System.Reactive.PlatformServices.xml
+C:\Users\andyl\Documents\GitHub\SECM---Car-Park-Prototype-1\SECM - Car Park Prototype 1\bin\Debug\System.Reactive.Windows.Threading.xml
+C:\Users\andyl\Documents\GitHub\SECM---Car-Park-Prototype-1\SECM - Car Park Prototype 1\obj\Debug\SECM - Car Park Prototype 1.csprojAssemblyReference.cache
+C:\Users\andyl\Documents\GitHub\SECM---Car-Park-Prototype-1\SECM - Car Park Prototype 1\obj\Debug\SECM - Car Park Prototype 1.csproj.ResolveComReference.cache
+C:\Users\andyl\Documents\GitHub\SECM---Car-Park-Prototype-1\SECM - Car Park Prototype 1\obj\Debug\SECM___Car_Park_Prototype_1.CarParkDB.resources
+C:\Users\andyl\Documents\GitHub\SECM---Car-Park-Prototype-1\SECM - Car Park Prototype 1\obj\Debug\SECM___Car_Park_Prototype_1.CarParkMenu.resources
+C:\Users\andyl\Documents\GitHub\SECM---Car-Park-Prototype-1\SECM - Car Park Prototype 1\obj\Debug\SECM___Car_Park_Prototype_1.CryptoPayment.resources
+C:\Users\andyl\Documents\GitHub\SECM---Car-Park-Prototype-1\SECM - Car Park Prototype 1\obj\Debug\SECM___Car_Park_Prototype_1.DirectDebit.resources
+C:\Users\andyl\Documents\GitHub\SECM---Car-Park-Prototype-1\SECM - Car Park Prototype 1\obj\Debug\SECM___Car_Park_Prototype_1.EnterPark.resources
+C:\Users\andyl\Documents\GitHub\SECM---Car-Park-Prototype-1\SECM - Car Park Prototype 1\obj\Debug\SECM___Car_Park_Prototype_1.ExitBarrierPanel.resources
+C:\Users\andyl\Documents\GitHub\SECM---Car-Park-Prototype-1\SECM - Car Park Prototype 1\obj\Debug\SECM___Car_Park_Prototype_1.ExitPark.resources
+C:\Users\andyl\Documents\GitHub\SECM---Car-Park-Prototype-1\SECM - Car Park Prototype 1\obj\Debug\SECM___Car_Park_Prototype_1.FaceID.resources
+C:\Users\andyl\Documents\GitHub\SECM---Car-Park-Prototype-1\SECM - Car Park Prototype 1\obj\Debug\SECM___Car_Park_Prototype_1.FacialRecognition.resources
+C:\Users\andyl\Documents\GitHub\SECM---Car-Park-Prototype-1\SECM - Car Park Prototype 1\obj\Debug\SECM___Car_Park_Prototype_1.NewCustomer.resources
+C:\Users\andyl\Documents\GitHub\SECM---Car-Park-Prototype-1\SECM - Car Park Prototype 1\obj\Debug\SECM___Car_Park_Prototype_1.ParkingBay.resources
+C:\Users\andyl\Documents\GitHub\SECM---Car-Park-Prototype-1\SECM - Car Park Prototype 1\obj\Debug\SECM___Car_Park_Prototype_1.PaymentMachine.resources
+C:\Users\andyl\Documents\GitHub\SECM---Car-Park-Prototype-1\SECM - Car Park Prototype 1\obj\Debug\SECM___Car_Park_Prototype_1.PurchaseVoucher.resources
+C:\Users\andyl\Documents\GitHub\SECM---Car-Park-Prototype-1\SECM - Car Park Prototype 1\obj\Debug\SECM___Car_Park_Prototype_1.RelieveDebt.resources
+C:\Users\andyl\Documents\GitHub\SECM---Car-Park-Prototype-1\SECM - Car Park Prototype 1\obj\Debug\SECM___Car_Park_Prototype_1.SetupCarPark.resources
+C:\Users\andyl\Documents\GitHub\SECM---Car-Park-Prototype-1\SECM - Car Park Prototype 1\obj\Debug\SECM___Car_Park_Prototype_1.Properties.Resources.resources
+C:\Users\andyl\Documents\GitHub\SECM---Car-Park-Prototype-1\SECM - Car Park Prototype 1\obj\Debug\SECM___Car_Park_Prototype_1.UpdateCustomer.resources
+C:\Users\andyl\Documents\GitHub\SECM---Car-Park-Prototype-1\SECM - Car Park Prototype 1\obj\Debug\SECM - Car Park Prototype 1.csproj.GenerateResource.cache
+C:\Users\andyl\Documents\GitHub\SECM---Car-Park-Prototype-1\SECM - Car Park Prototype 1\obj\Debug\SECM - Car Park Prototype 1.csproj.CopyComplete
+C:\Users\andyl\Documents\GitHub\SECM---Car-Park-Prototype-1\SECM - Car Park Prototype 1\obj\Debug\SECM - Car Park Prototype 1.exe
+C:\Users\andyl\Documents\GitHub\SECM---Car-Park-Prototype-1\SECM - Car Park Prototype 1\obj\Debug\SECM - Car Park Prototype 1.pdb

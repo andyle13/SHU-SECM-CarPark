@@ -1,42 +1,45 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace SECM___Car_Park_Prototype_1
 {
-    public partial class enterPark : Form
+    public partial class EnterPark : Form
     {
         CarPark _carPark;
         List<CarParkDB> _cpPanels;
         Customer selectedCustomer;
-        Label _spaces;
-        int index;
-        public enterPark(CarPark carPark, List<CarParkDB> cpPanels, Label spaces)
+        Label _spaces, _custNo;
+        DateTime _dateTime;
+        int _skipHour, index;
+
+        public EnterPark(CarPark carPark, List<CarParkDB> cpPanels, Label spaces, Label custNo, DateTime dateTime, int skipHour)
         {
             InitializeComponent();
             _carPark = carPark;
             _cpPanels = cpPanels;
             _spaces = spaces;
-            FPrintScan.Enabled = false;
-            enterCP.Enabled = false;
-            for (int i = 0; i < _carPark.getNoOfActCusts(); i++)
+            _custNo = custNo;
+            _dateTime = dateTime;
+            _skipHour = skipHour;
+            raised.Checked = (!_carPark.GetEmergency()) ? false : true;
+            timer1.Start();
+            for (int i = 0; i < _carPark.GetNoOfActCusts(); i++)
             {
-                custListItems item = new custListItems();
-                item.Name = _carPark.getActiveCustList()[i].getName();
-                item.custObj = _carPark.getActiveCustList()[i];
-                custList.Items.Add(item);
+                if (_carPark.GetActiveCustList()[i].GetLocked() == false)
+                {
+                    CustListItems item = new CustListItems();
+                    item.Name = _carPark.GetActiveCustList()[i].GetName();
+                    item.custObj = _carPark.GetActiveCustList()[i];
+                    custList.Items.Add(item);
+                }
             }
         }
         private void custList_SelectedIndexChanged(object sender, EventArgs e)
         {
-            selectedCustomer = (custList.SelectedItem as custListItems).custObj;
-            FPrintScan.Enabled = true;
+            selectedCustomer = (custList.SelectedItem as CustListItems).custObj;
+            FPrintScan.Enabled = (!_carPark.GetEmergency()) ? true : false;
+            if (_carPark.GetEmergency()) enterCP.Enabled = true;
         }
         private void FPrintScan_Click(object sender, EventArgs e)
         {
@@ -44,41 +47,30 @@ namespace SECM___Car_Park_Prototype_1
             int i = 0;
             while (!isFound)
             {
-                if (selectedCustomer.getName() == _carPark.getActiveCustList()[i].getName())
+                if (selectedCustomer.GetName() == _carPark.GetActiveCustList()[i].GetName())
                 {
-                    if (_carPark.getActiveCustList()[i].getAccount() == null)
+                    if (_carPark.GetActiveCustList()[i].GetAccount() == null)
                     {
                         entryBarrierText.Text = "As a non-registered customer, use the dispensed chip-coin to make payments at the Payment Machine.";
+                        selectedCustomer.SetChipCoin(true);
                     }
                     else
                     {
-                        entryBarrierText.Text = "FPrint account found. Tap-in successful. Please enter the Car Park.";
-                    }
-                    isFound = true;
-                    index = allocateBay(selectedCustomer.getName());
-                    while (_cpPanels[getLevel()].getStatus(index % _carPark.getLVCap()) != "Available")
-                    {
-                        index = linearProbing(index);
-                    }
-
-                    bayAllocator.Text = "Your allocated Parking Bay is No. #" + (_cpPanels[getLevel()].getBayNo(index % _carPark.getLVCap())) + ".";
-
-                    double loadFactor = ((double)_carPark.getNoOfVisitors() / (double)_carPark.getCPCap());
-                    if (loadFactor >= 0.7 && _carPark.getUnlockedLevels() < _carPark.getLevels())
-                    {
-                        MessageBox.Show("Load factor reached: " + loadFactor + ". Array will be resized.");
-                        _carPark.setParkingLot();
-                        for(int j = 0; j < _carPark.getLVCap(); j++)
+                        entryBarrierText.Text = "Tap-in successful. Please enter the Car Park.";
+                        if(selectedCustomer.GetVoucher() != null && selectedCustomer.GetAccount().GetPayStyle() == "PAYP")
                         {
-                            _cpPanels[_carPark.getUnlockedLevels()].setStatus(j, "Available");
+                            entryBarrierText.Text =  "Tap-in successful. Please enter the Car Park. Your Voucher has been credited towards your FPrint Balance.";
+                            selectedCustomer.GetAccount().SetBalance(selectedCustomer.GetVoucher().GetValue());
+                            selectedCustomer.SetVoucher(null);
                         }
-                        _carPark.setCPCap(1);
-                    } // increase the array size once the load factor has been reached or exceeded
+                    }
+
+                    isFound = true;
+                    BayAllocation();
+                    bayAllocator.Text = "Your allocated Parking Bay is No. #" + (_cpPanels[getLevel()].GetBayNo(index % _carPark.GetLVCap())) + ".";
                 }
                 else
-                {
                     i++;
-                }
             }
             custList.Enabled = false;
             raised.Checked = true;
@@ -88,16 +80,21 @@ namespace SECM___Car_Park_Prototype_1
 
         private void enterCP_Click(object sender, EventArgs e)
         {
-            _cpPanels[getLevel()].updateCPstatus(index % _carPark.getLVCap(), selectedCustomer.getName(), (index + 1), "Reserved");
-            _carPark.setNoOfVisitors(1);
+            BayAllocation();
+            _cpPanels[getLevel()].UpdateCPstatus(index % _carPark.GetLVCap(), selectedCustomer.GetName(), (index + 1), "Reserved");
             custList.Enabled = true;
-            lowered.Checked = true;
+            lowered.Checked = (!_carPark.GetEmergency()) ? true : false;
             enterCP.Enabled = false;
-            entryBarrierText.Text = bayAllocator.Text = custList.Text = "";
+            selectedCustomer.SetEntryTime(_dateTime);
+            _carPark.AddCPVisitors(selectedCustomer);
+            _carPark.RemoveActCustVisitor(selectedCustomer);
             custList.Items.Remove(custList.SelectedItem);
-            _carPark.setNoOfCustomers(-1);
-            _carPark.setOccupiedSpaces(1);
-            _spaces.Text = _carPark.getAvailableSpaces().ToString();
+            entryBarrierText.Text = bayAllocator.Text = custList.Text = "";
+            _carPark.SetNoOfVisitors(1);
+            _carPark.SetOccupiedSpaces(1);
+            _carPark.SetNoOfCustomers(-1);
+            _spaces.Text = _carPark.GetAvailableSpaces().ToString();
+            _custNo.Text = _carPark.GetNoOfActCusts().ToString();
 
             if (custList.Items.Count == 0)
                 this.Close();
@@ -111,21 +108,21 @@ namespace SECM___Car_Park_Prototype_1
             {
                 hash += ascii;
             } // increment the hash value by the ascii values of each letter of the key
-            return hash % _carPark.getLVCap();
+            return hash % _carPark.GetLVCap();
         } // perform modular arithmetic on the hash value to return the index
 
         public int linearProbing(int index)
         {
-            return (index + 1) % _carPark.getLVCap();
+            return (index + 1) % _carPark.GetLVCap();
         }
 
         public int getLevel()
         {
-            for(int i = 0; i < _carPark.getLevels(); i++)
+            for(int i = 0; i < _carPark.GetLevels(); i++)
             {
-                for(int j = 0; j < _carPark.getLVCap(); j++)
+                for(int j = 0; j < _carPark.GetLVCap(); j++)
                 {
-                    if(_cpPanels[i].getStatus(j) == "Available")
+                    if(_cpPanels[i].GetStatus(j) == "Available")
                     {
                         return i;
                     }
@@ -134,14 +131,27 @@ namespace SECM___Car_Park_Prototype_1
             return -1;
         }
 
-        private void enterPark_FormClosing(object sender, FormClosingEventArgs e)
+        private void timer1_Tick(object sender, EventArgs e)
         {
-            List<Customer> newList = new List<Customer>();
-            for (int i = 0; i < custList.Items.Count; i++)
+            _dateTime = DateTime.Now.AddHours(_skipHour);
+        }
+
+        private void BayAllocation()
+        {
+            index = allocateBay(selectedCustomer.GetName());
+            while (_cpPanels[getLevel()].GetStatus(index % _carPark.GetLVCap()) != "Available")
+                index = linearProbing(index);
+            
+            double loadFactor = ((double)_carPark.GetNoOfVisitors() / (double)_carPark.GetCPCap());
+            if (loadFactor >= 0.7 && _carPark.GetUnlockedLevels() < _carPark.GetLevels())
             {
-                newList.Add((custList.Items[i] as custListItems).custObj);
-            }
-            _carPark.setActCustList(newList);
+                MessageBox.Show("Load factor reached: " + loadFactor + ". Array will be resized.");
+                _carPark.SetParkingLot();
+                for (int j = 0; j < _carPark.GetLVCap(); j++)
+                    _cpPanels[_carPark.GetUnlockedLevels()].SetStatus(j, "Available");
+
+                _carPark.SetCPCap(1);
+            } // increase the array size once the load factor has been reached or exceeded
         }
     }
 }

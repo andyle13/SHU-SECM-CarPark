@@ -1,19 +1,13 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace SECM___Car_Park_Prototype_1
 {
-    public partial class setupCarPark : Form
+    public partial class SetupCarPark : Form
     {
-        private int lv, sp;
-        public setupCarPark()
+        private int lv, sp, exitBarriers;
+        public SetupCarPark()
         {
             InitializeComponent();
         }
@@ -53,6 +47,22 @@ namespace SECM___Car_Park_Prototype_1
                 spaces.ForeColor = SystemColors.InactiveCaption;
             }
         }
+        private void exits_Enter(object sender, EventArgs e)
+        {
+            if (exits.Text == "0")
+            {
+                exits.Text = "";
+                exits.ForeColor = Color.Black;
+            }
+        }
+        private void exits_Leave(object sender, EventArgs e)
+        {
+            if (exits.Text == "")
+            {
+                exits.Text = "0";
+                exits.ForeColor = SystemColors.InactiveCaption;
+            }
+        }
         private void levels_KeyPress(object sender, KeyPressEventArgs e)
         {
             if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar))
@@ -61,6 +71,13 @@ namespace SECM___Car_Park_Prototype_1
             }
         }
         private void spaces_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar))
+            {
+                e.Handled = true;
+            }
+        }
+        private void exits_KeyPress(object sender, KeyPressEventArgs e)
         {
             if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar))
             {
@@ -77,18 +94,22 @@ namespace SECM___Car_Park_Prototype_1
             sp = (spaces.Text != "") ? int.Parse(spaces.Text) : 0;
             capacity_display();
         }
+        private void exits_TextChanged(object sender, EventArgs e)
+        {
+            exitBarriers = (exits.Text != "") ? int.Parse(exits.Text) : 0;
+            capacity_display();
+        }
         private void capacity_display()
         {
             capacity.Text = (lv != 0 && sp != 0) ? (lv * sp).ToString() : "0";
-            instantiation.Enabled = (lv != 0 && sp != 0) ? true : false;
+            instantiation.Enabled = (lv != 0 && sp != 0 && exitBarriers != 0) ? true : false;
         }
-
         private void instantiation_Click(object sender, EventArgs e)
         {
-            CarPark newCarPark = new CarPark(lv, sp);
+            CarPark newCarPark = new CarPark(lv, sp, exitBarriers);
             MessageBox.Show("Car Park created.");
             this.Hide();
-            carParkPanel main = new carParkPanel(newCarPark);
+            CarParkMenu main = new CarParkMenu(newCarPark);
             main.ShowDialog();
             this.Close();
         }

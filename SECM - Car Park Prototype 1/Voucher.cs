@@ -1,12 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace SECM___Car_Park_Prototype_1
+﻿namespace SECM___Car_Park_Prototype_1
 {
-    class Voucher
+    public class Voucher
     {
         private string voucherCode;
         private double value;
@@ -15,6 +9,16 @@ namespace SECM___Car_Park_Prototype_1
         {
             voucherCode = code;
             value = credit;
+        }
+
+        public string GetVoucherCode()
+        {
+            return voucherCode;
+        }
+
+        public double GetValue()
+        {
+            return value;
         }
     }
 }

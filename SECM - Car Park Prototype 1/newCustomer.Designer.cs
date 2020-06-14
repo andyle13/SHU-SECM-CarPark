@@ -1,6 +1,6 @@
 ﻿namespace SECM___Car_Park_Prototype_1
 {
-    partial class newCustomer
+    partial class NewCustomer
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(newCustomer));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(NewCustomer));
             this.fBalance = new System.Windows.Forms.TextBox();
             this.cName = new System.Windows.Forms.TextBox();
             this.floorSpaces = new System.Windows.Forms.Label();
@@ -50,6 +50,7 @@
             this.payp = new System.Windows.Forms.RadioButton();
             this.submit = new System.Windows.Forms.Button();
             this.regForm = new System.Windows.Forms.GroupBox();
+            this.label2 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.incentives.SuspendLayout();
             this.payStyle.SuspendLayout();
@@ -60,9 +61,9 @@
             // 
             this.fBalance.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.fBalance.ForeColor = System.Drawing.SystemColors.InactiveCaption;
-            this.fBalance.Location = new System.Drawing.Point(146, 81);
+            this.fBalance.Location = new System.Drawing.Point(138, 80);
             this.fBalance.Name = "fBalance";
-            this.fBalance.Size = new System.Drawing.Size(141, 23);
+            this.fBalance.Size = new System.Drawing.Size(110, 23);
             this.fBalance.TabIndex = 15;
             this.fBalance.Text = "0";
             this.fBalance.TextChanged += new System.EventHandler(this.fBalance_TextChanged);
@@ -88,9 +89,9 @@
             this.floorSpaces.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.floorSpaces.Location = new System.Drawing.Point(15, 82);
             this.floorSpaces.Name = "floorSpaces";
-            this.floorSpaces.Size = new System.Drawing.Size(127, 19);
+            this.floorSpaces.Size = new System.Drawing.Size(89, 19);
             this.floorSpaces.TabIndex = 12;
-            this.floorSpaces.Text = "Financial Balance:";
+            this.floorSpaces.Text = "Set Balance:";
             // 
             // nooflevels
             // 
@@ -108,9 +109,9 @@
             this.header.Font = new System.Drawing.Font("Calibri", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.header.Location = new System.Drawing.Point(12, 9);
             this.header.Name = "header";
-            this.header.Size = new System.Drawing.Size(236, 33);
+            this.header.Size = new System.Drawing.Size(151, 33);
             this.header.TabIndex = 10;
-            this.header.Text = "Welcome Customer";
+            this.header.Text = "Registration";
             // 
             // instruction
             // 
@@ -119,9 +120,9 @@
             this.instruction.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.instruction.Location = new System.Drawing.Point(15, 53);
             this.instruction.Name = "instruction";
-            this.instruction.Size = new System.Drawing.Size(174, 19);
+            this.instruction.Size = new System.Drawing.Size(278, 19);
             this.instruction.TabIndex = 9;
-            this.instruction.Text = "Please enter your details.";
+            this.instruction.Text = "Dear Customer, please enter your details.";
             this.instruction.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // label1
@@ -316,7 +317,18 @@
             this.regForm.TabStop = false;
             this.regForm.Text = "Online Registration Form";
             // 
-            // newCustomer
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Cursor = System.Windows.Forms.Cursors.Default;
+            this.label2.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(251, 82);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(36, 19);
+            this.label2.TabIndex = 12;
+            this.label2.Text = "GBP";
+            // 
+            // NewCustomer
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -328,11 +340,12 @@
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.fBalance);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.floorSpaces);
             this.Controls.Add(this.header);
             this.Controls.Add(this.instruction);
-            this.Name = "newCustomer";
-            this.Text = "newCustomer";
+            this.Name = "NewCustomer";
+            this.Text = "Add Customer";
             this.Load += new System.EventHandler(this.newCustomer_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
@@ -369,5 +382,6 @@
         private System.Windows.Forms.RadioButton payp;
         private System.Windows.Forms.Button submit;
         private System.Windows.Forms.GroupBox regForm;
+        private System.Windows.Forms.Label label2;
     }
 }
